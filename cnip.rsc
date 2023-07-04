@@ -16546,7 +16546,6 @@ add address=61.29.224.0/21 list=CNIP
 add address=61.29.232.0/23 list=CNIP
 add address=61.29.235.0/24 list=CNIP
 add address=61.29.236.0/22 list=CNIP
-add address=61.29.240.0/21 list=CNIP
 add address=61.29.240.0/22 list=CNIP
 add address=61.29.245.0/24 list=CNIP
 add address=61.29.246.0/23 list=CNIP
@@ -16554,7 +16553,6 @@ add address=61.29.248.0/22 list=CNIP
 add address=61.29.249.0/24 list=CNIP
 add address=61.29.250.0/23 list=CNIP
 add address=61.29.252.0/23 list=CNIP
-add address=61.29.254.0/23 list=CNIP
 add address=61.29.254.0/24 list=CNIP
 add address=61.4.176.0/20 list=CNIP
 add address=61.4.80.0/22 list=CNIP
