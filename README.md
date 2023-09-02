@@ -19,12 +19,12 @@
 
 ###### 在/System Script下添加如下脚本内容
 ```
-/tool fetch url=https://raw.githubusercontent.com/jiaoting/ROS-cnip-script/main/cnip.rsc
+:log info ("CNIP列表更新中...")
+/tool fetch url=https://ghproxy.com/https://raw.githubusercontent.com/jiaoting/ROS-cnip-script/main/cnip.rsc
 /system logging disable 0
 /import cnip.rsc
 /system logging enable 0
 :local CNIP [:len [/ip firewall address-list find list="CNIP"]]
-/file remove [find name="cnip.rsc"]
 :log info ("CNIP列表更新:"."$CNIP"."条规则")
 ```
 建议手动执行，也可以在/System Scheduler下添加一个脚本定时
