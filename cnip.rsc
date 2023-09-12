@@ -3817,6 +3817,7 @@ add address=103.75.128.0/22 list=CNIP
 add address=103.75.144.0/22 list=CNIP
 add address=103.75.152.0/22 list=CNIP
 add address=103.75.236.0/24 list=CNIP
+add address=103.75.82.0/23 list=CNIP
 add address=103.75.87.0/24 list=CNIP
 add address=103.75.88.0/21 list=CNIP
 add address=103.75.88.0/22 list=CNIP
