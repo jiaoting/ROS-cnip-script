@@ -11690,6 +11690,8 @@ add address=223.212.0.0/15 list=CNIP
 add address=223.214.0.0/15 list=CNIP
 add address=223.220.0.0/15 list=CNIP
 add address=223.223.176.0/20 list=CNIP
+add address=223.223.176.0/21 list=CNIP
+add address=223.223.184.0/21 list=CNIP
 add address=223.223.192.0/20 list=CNIP
 add address=223.240.0.0/13 list=CNIP
 add address=223.248.0.0/14 list=CNIP
