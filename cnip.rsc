@@ -17081,6 +17081,8 @@ add address=61.29.232.0/23 list=CNIP
 add address=61.29.235.0/24 list=CNIP
 add address=61.29.236.0/22 list=CNIP
 add address=61.29.240.0/22 list=CNIP
+add address=61.29.241.0/24 list=CNIP
+add address=61.29.242.0/23 list=CNIP
 add address=61.29.245.0/24 list=CNIP
 add address=61.29.246.0/23 list=CNIP
 add address=61.29.248.0/22 list=CNIP
