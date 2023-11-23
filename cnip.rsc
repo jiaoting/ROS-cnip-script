@@ -15055,7 +15055,10 @@ add address=43.175.88.0/21 list=CNIP
 add address=43.175.96.0/19 list=CNIP
 add address=43.176.0.0/12 list=CNIP
 add address=43.192.0.0/14 list=CNIP
+add address=43.192.0.0/15 list=CNIP
 add address=43.192.100.0/24 list=CNIP
+add address=43.194.0.0/16 list=CNIP
+add address=43.195.0.0/16 list=CNIP
 add address=43.196.0.0/15 list=CNIP
 add address=43.224.100.0/22 list=CNIP
 add address=43.224.12.0/22 list=CNIP
