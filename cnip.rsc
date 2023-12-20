@@ -7480,6 +7480,7 @@ add address=143.42.32.0/20 list=CNIP
 add address=143.64.0.0/16 list=CNIP
 add address=143.64.0.0/17 list=CNIP
 add address=143.64.128.0/19 list=CNIP
+add address=143.64.160.0/20 list=CNIP
 add address=144.0.0.0/16 list=CNIP
 add address=144.12.0.0/16 list=CNIP
 add address=144.123.0.0/16 list=CNIP
