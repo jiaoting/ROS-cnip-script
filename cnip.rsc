@@ -7613,6 +7613,7 @@ add address=157.10.118.0/23 list=CNIP
 add address=157.10.130.0/23 list=CNIP
 add address=157.10.218.0/23 list=CNIP
 add address=157.10.220.0/23 list=CNIP
+add address=157.10.246.0/23 list=CNIP
 add address=157.10.34.0/23 list=CNIP
 add address=157.10.36.0/23 list=CNIP
 add address=157.119.0.0/22 list=CNIP
