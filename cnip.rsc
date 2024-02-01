@@ -7652,6 +7652,7 @@ add address=157.133.212.0/24 list=CNIP
 add address=157.133.236.0/24 list=CNIP
 add address=157.148.0.0/16 list=CNIP
 add address=157.15.74.0/23 list=CNIP
+add address=157.15.94.0/23 list=CNIP
 add address=157.156.0.0/16 list=CNIP
 add address=157.18.0.0/16 list=CNIP
 add address=157.238.74.0/23 list=CNIP
