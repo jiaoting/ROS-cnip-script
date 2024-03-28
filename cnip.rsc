@@ -3886,7 +3886,6 @@ add address=103.79.228.0/23 list=CNIP
 add address=103.79.228.0/24 list=CNIP
 add address=103.79.24.0/21 list=CNIP
 add address=103.79.24.0/22 list=CNIP
-add address=103.79.240.0/22 list=CNIP
 add address=103.79.28.0/22 list=CNIP
 add address=103.79.36.0/22 list=CNIP
 add address=103.79.40.0/21 list=CNIP
