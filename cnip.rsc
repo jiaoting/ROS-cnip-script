@@ -4012,7 +4012,6 @@ add address=103.87.20.0/22 list=CNIP
 add address=103.87.224.0/22 list=CNIP
 add address=103.87.32.0/22 list=CNIP
 add address=103.87.4.0/22 list=CNIP
-add address=103.87.72.0/22 list=CNIP
 add address=103.87.96.0/22 list=CNIP
 add address=103.88.12.0/22 list=CNIP
 add address=103.88.16.0/21 list=CNIP
