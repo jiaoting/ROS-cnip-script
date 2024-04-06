@@ -6513,7 +6513,10 @@ add address=149.129.37.38/31 list=CNIP
 add address=149.129.37.40/29 list=CNIP
 add address=149.129.37.48/28 list=CNIP
 add address=149.129.37.64/26 list=CNIP
+add address=149.14.156.96/29 list=CNIP
 add address=149.41.0.0/16 list=CNIP
+add address=149.6.36.20/32 list=CNIP
+add address=149.6.37.13/32 list=CNIP
 add address=15.230.141.0/24 list=CNIP
 add address=15.230.41.0/24 list=CNIP
 add address=15.230.49.0/24 list=CNIP
@@ -10223,6 +10226,9 @@ add address=36.69.72.0/21 list=CNIP
 add address=36.69.80.0/20 list=CNIP
 add address=36.69.96.0/19 list=CNIP
 add address=36.96.0.0/11 list=CNIP
+add address=38.101.160.40/32 list=CNIP
+add address=38.101.162.120/32 list=CNIP
+add address=38.103.64.26/32 list=CNIP
 add address=39.0.0.0/24 list=CNIP
 add address=39.0.128.0/17 list=CNIP
 add address=39.0.16.0/20 list=CNIP
