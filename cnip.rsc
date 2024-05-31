@@ -236,8 +236,6 @@ add address=101.44.56.0/21 list=CNIP
 add address=101.45.0.0/16 list=CNIP
 add address=101.46.176.0/21 list=CNIP
 add address=101.46.208.0/21 list=CNIP
-add address=101.46.236.0/22 list=CNIP
-add address=101.46.240.0/21 list=CNIP
 add address=101.46.255.0/24 list=CNIP
 add address=101.46.32.0/20 list=CNIP
 add address=101.46.96.0/19 list=CNIP
