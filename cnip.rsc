@@ -6658,7 +6658,7 @@ add address=159.27.128.88/30 list=CNIP
 add address=159.27.132.0/25 list=CNIP
 add address=159.27.132.128/26 list=CNIP
 add address=159.27.132.192/28 list=CNIP
-add address=159.27.132.208/30 list=CNIP
+add address=159.27.132.208/29 list=CNIP
 add address=159.27.144.0/20 list=CNIP
 add address=159.27.160.0/21 list=CNIP
 add address=159.27.168.0/22 list=CNIP
@@ -6695,6 +6695,7 @@ add address=160.202.252.0/22 list=CNIP
 add address=160.202.60.0/22 list=CNIP
 add address=160.202.60.0/23 list=CNIP
 add address=160.202.62.0/24 list=CNIP
+add address=160.22.148.0/23 list=CNIP
 add address=160.22.58.0/23 list=CNIP
 add address=160.22.82.0/23 list=CNIP
 add address=160.238.64.0/22 list=CNIP
