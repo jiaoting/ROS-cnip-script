@@ -6703,6 +6703,8 @@ add address=160.22.148.0/23 list=CNIP
 add address=160.22.188.0/23 list=CNIP
 add address=160.22.224.0/23 list=CNIP
 add address=160.22.230.0/23 list=CNIP
+add address=160.22.244.0/23 list=CNIP
+add address=160.22.246.0/23 list=CNIP
 add address=160.22.58.0/23 list=CNIP
 add address=160.22.82.0/23 list=CNIP
 add address=160.238.64.0/22 list=CNIP
