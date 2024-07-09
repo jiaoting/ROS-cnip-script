@@ -3,7 +3,7 @@
 此ip列表搬运自[kiddin9/china_ip_list](https://github.com/kiddin9/china_ip_list)，并在[MF2022/ROS-cnip-script](https://github.com/DMF2022/ROS-cnip-script)的基础上，增加了[Akamai-ASN-and-IPs-List](https://github.com/SecOps-Institute/Akamai-ASN-and-IPs-List)，使用合并ip解决国内分流无法覆盖的局限性（如某些厂商服务分流无法正常使用，比如联想应用商店，微软商店，微软更新等），并加入ROS的导入命令制作而成。
 
 
->此列表仅包含IPV4地址，没有IPV6地址。
+>此项目包含IPV4、IPV6地址。
 
 >自动修改为ROS命令脚本文件，不定期更新。
 
@@ -20,13 +20,19 @@
 ###### 在/System Script下添加如下脚本内容
 ```
 :log info ("CNIP列表更新中...")
-/tool fetch url=https://raw.gitmirror.com/jiaoting/ROS-cnip-script/main/cnip.rsc
+/tool fetch url=https://mirror.ghproxy.com/https://raw.githubusercontent.com/jiaoting/ROS-cnip-script/main/cnip.rsc
+/tool fetch url=https://mirror.ghproxy.com/https://raw.githubusercontent.com/jiaoting/ROS-cnip-script/main/cnipv6.rsc
 /system logging disable 0
-:local CNIPold [:len [/ip firewall address-list find list="CNIP"]]
+:local CNIP_old_v4 [:len [/ip firewall address-list find list="CNIP"]]
+:local CNIP_old_v6 [:len [/ipv6 firewall address-list find list="CNIP"]]
 /import cnip.rsc
+/import cnipv6.rsc
 /import Apple.rsc
-:local CNIPnew [:len [/ip firewall address-list find list="CNIP"]]
+:local CNIP_new_v4 [:len [/ip firewall address-list find list="CNIP"]]
+:local CNIP_new_v6 [:len [/ipv6 firewall address-list find list="CNIP"]]
 /system logging enable 0
-:log info ("CNIP列表更新:".($CNIPnew)."条规则，增加".($CNIPnew-$CNIPold)."条")
+:log info ("CNIP列表更新:IPV4共".($CNIP_new_v4)."条规则，增加".($CNIP_new_v4-$CNIP_old_v4)."条")
+:log info ("CNIP列表更新:IPV6共".($CNIP_new_v6)."条规则，增加".($CNIP_new_v6-$CNIP_old_v6)."条")
 ```
+
 建议手动执行，也可以在/System Scheduler下添加一个脚本定时
