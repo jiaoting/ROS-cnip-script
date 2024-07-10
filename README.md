@@ -21,15 +21,15 @@
 ```
 :log info ("CNIP列表更新中...")
 
-/tool fetch url=https://mirror.ghproxy.com/https://raw.githubusercontent.com/jiaoting/ROS-cnip-script/main/cnip.rsc
-/tool fetch url=https://mirror.ghproxy.com/https://raw.githubusercontent.com/jiaoting/ROS-cnip-script/main/cnip6.rsc
+/tool fetch url=https://mirror.ghproxy.com/https://raw.githubusercontent.com/jiaoting/ROS-cnip-script/main/cnipv4.rsc
+/tool fetch url=https://mirror.ghproxy.com/https://raw.githubusercontent.com/jiaoting/ROS-cnip-script/main/cnipv6.rsc
 
 /system logging disable 0
 
 :local CNIPv4old [:len [/ip firewall address-list find list="CNIP"]]
 :local CNIPv6old [:len [/ipv6 firewall address-list find list="CNIP"]]
 
-/import cnip.rsc
+/import cnipv4.rsc
 /import cnipv6.rsc
 /import Apple.rsc
 
