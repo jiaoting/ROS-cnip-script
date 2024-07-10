@@ -1,4 +1,4 @@
-name: ROS CNIP6 list
+name: ROS CNIPv6 list
 
 on:
   watch:
@@ -28,7 +28,7 @@ jobs:
         clang="$(curl -kLfsm 5 https://ispip.clang.cn/all_cn_ipv6.txt)"
         akamai="$(curl -kLfsm 5 https://raw.githubusercontent.com/SecOps-Institute/Akamai-ASN-and-IPs-List/master/akamai_ipv6_list.lst)"
         iplist="$clang\n$akamai"
-        echo -e "${iplist}" | sort | uniq | sed -e 's/^/add address=/g' -e 's/$/ list=CNIP/g' | sed -e $'1i\\\n/ipv6 firewall address-list' -e $'1i\\\nremove [find list=CNIP]' > cnip6.rsc
+        echo -e "${iplist}" | sort | uniq | sed -e 's/^/add address=/g' -e 's/$/ list=CNIP/g' | sed -e $'1i\\\n/ipv6 firewall address-list' -e $'1i\\\nremove [find list=CNIP]' > cnipv6.rsc
 
     - name: Apply
       run: |
