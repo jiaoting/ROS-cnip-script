@@ -20,19 +20,26 @@
 ###### 在/System Script下添加如下脚本内容
 ```
 :log info ("CNIP列表更新中...")
+
 /tool fetch url=https://mirror.ghproxy.com/https://raw.githubusercontent.com/jiaoting/ROS-cnip-script/main/cnip.rsc
 /tool fetch url=https://mirror.ghproxy.com/https://raw.githubusercontent.com/jiaoting/ROS-cnip-script/main/cnip6.rsc
+
 /system logging disable 0
-:local CNIP_old_v4 [:len [/ip firewall address-list find list="CNIP"]]
-:local CNIP_old_v6 [:len [/ipv6 firewall address-list find list="CNIP"]]
+
+:local CNIPv4old [:len [/ip firewall address-list find list="CNIP"]]
+:local CNIPv6old [:len [/ipv6 firewall address-list find list="CNIP"]]
+
 /import cnip.rsc
 /import cnipv6.rsc
 /import Apple.rsc
-:local CNIP_new_v4 [:len [/ip firewall address-list find list="CNIP"]]
-:local CNIP_new_v6 [:len [/ipv6 firewall address-list find list="CNIP"]]
+
+:local CNIPv4new [:len [/ip firewall address-list find list="CNIP"]]
+:local CNIPv6new [:len [/ipv6 firewall address-list find list="CNIP"]]
+
 /system logging enable 0
-:log info ("CNIP列表更新:IPV4共".($CNIP_new_v4)."条规则，增加".($CNIP_new_v4-$CNIP_old_v4)."条")
-:log info ("CNIP列表更新:IPV6共".($CNIP_new_v6)."条规则，增加".($CNIP_new_v6-$CNIP_old_v6)."条")
+
+:log info ("CNIP列表更新:IPV4共".($CNIPv4new)."条规则，增加".($CNIPv4new-$CNIPv4old)."条")
+:log info ("CNIP列表更新:IPV6共".($CNIPv6new)."条规则，增加".($CNIPv6new-$CNIPv6old)."条")
 ```
 
 建议手动执行，也可以在/System Scheduler下添加一个脚本定时
