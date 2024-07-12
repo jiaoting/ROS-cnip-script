@@ -927,6 +927,7 @@ add address=2401:adc0::/32 list=CNIP
 add address=2401:afa0::/32 list=CNIP
 add address=2401:b040::/32 list=CNIP
 add address=2401:b180::/32 list=CNIP
+add address=2401:b220::/32 list=CNIP
 add address=2401:b340::/32 list=CNIP
 add address=2401:b400::/32 list=CNIP
 add address=2401:b40::/32 list=CNIP
