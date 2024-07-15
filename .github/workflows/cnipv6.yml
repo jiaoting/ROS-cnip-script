@@ -50,7 +50,6 @@ jobs:
 
     - name: Clean
       run: |
-        rm output.txt
         rm merger.txt
         rm china_ip_list_v6.txt
         
