@@ -29,7 +29,7 @@ jobs:
         mayax="$(curl -kLfsm 5 https://raw.githubusercontent.com/mayaxcn/china-ip-list/master/chnroute_v6.txt)"
         gaoyifan="$(curl -kLfsm 5 https://raw.githubusercontent.com/gaoyifan/china-operator-ip/ip-lists/china6.txt)"
         biglist="$clang\n$mayax\n$gaoyifan"
-        echo -e "${biglist}" | sort | uniq > merger.txt
+        echo -e "${biglist}" | sort | uniq > merger_v6.txt
 
     - name: Download cidr-merger Setup 
       run: |
@@ -42,7 +42,7 @@ jobs:
     - name: merger file 
       run: |
         chmod +x cidr-merger
-        ./cidr-merger merger.txt > cnipv6.rsc
+        ./cidr-merger merger_v6.txt > cnipv6.rsc
         
     - name: add ROS script
       run: |
@@ -52,8 +52,8 @@ jobs:
 
     - name: Clean
       run: |
-        # rm merger.txt
-        # rm cidr-merger
+        rm merger.txt
+        rm cidr-merger
         
     - name: Apply
       run: |
