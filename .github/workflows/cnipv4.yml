@@ -32,27 +32,25 @@ jobs:
         gaoyifan="$(curl -kLfsm 5 https://raw.githubusercontent.com/gaoyifan/china-operator-ip/ip-lists/china.txt)"
         Hackl0us="$(curl -kLfsm 5 https://raw.githubusercontent.com/Hackl0us/GeoIP2-CN/release/CN-ip-cidr.txt)"
         misakaio="$(curl -kLfsm 5 https://raw.githubusercontent.com/misakaio/chnroutes2/master/chnroutes.txt)"
-        echo "$misakaio" > output.txt
-        sed -i -n '/^#/d' output.txt
-        misakaio="$(cat output.txt)"
         biglist="$qqwry\n$ipipnet\n$clang\n$mayax\n$gaoyifan\n$Hackl0us\n$misakaio"
         echo -e "${biglist}" | sort | uniq > merger.txt
 
     - name: Download cidr-merger Setup 
       run: |
-        if [ -f ./cidr-merger-linux-amd64 ]; then
+        if [ -f ./cidr-merger ]; then
           echo "File exists"
         else
-          wget https://github.com/zhanhb/cidr-merger/releases/download/v1.1.3/cidr-merger-linux-amd64 
+          wget https://github.com/zhanhb/cidr-merger/releases/download/v1.1.3/cidr-merger-linux-amd64 -O cidr-merger
         fi
         
     - name: merger file 
       run: |
-        chmod +x cidr-merger-linux-amd64
-        ./cidr-merger-linux-amd64 merger.txt > cnipv4.rsc
+        chmod +x cidr-merger
+        ./cidr-merger merger.txt > cnipv4.rsc
         
     - name: add ROS script
       run: |
+        sed -i -n '/^#/d' cnipv4.rsc
         sed -i -n 's/^/add address=/g' cnipv4.rsc
         sed -i -n 's/$/ list=CNIP/g' cnipv4.rsc
         sed -i -n '1i\add address=10.0.0.0/8 list=CNIP' cnipv4.rsc
@@ -64,7 +62,7 @@ jobs:
       run: |
         # rm output.txt
         # rm merger.txt
-        # rm cidr-merger-linux-amd64
+        # rm cidr-merger
         
     - name: Apply
       run: |
