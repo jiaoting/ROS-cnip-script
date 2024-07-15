@@ -49,11 +49,17 @@ jobs:
     - name: merger file 
       run: |
         chmod +x ./utils/cidr-merger-linux-amd64
-        ./utils/cidr-merger-linux-amd64 merger.txt > china_ip_list_v4.txt
+        ./utils/cidr-merger-linux-amd64 merger.txt > cnipv4.rsc
         
     - name: add ROS script
       run: |
-        echo -e "china_ip_list_v4.txt" | sort | uniq | sed -e "s/^/add address=/g" -e "s/$/ list=CNIP/g" | sed -e $"1i\\\n/ip firewall address-list" -e $"1i\\\nremove [find list=CNIP]" -e $"1i\\\nadd address=10.0.0.0/8 list=CNIP" -e $"1i\\\nadd address=172.16.0.0/12 list=CNIP" -e $"1i\\\nadd address=192.168.0.0/16 list=CNIP"> cnipv4.rsc
+        sed -i -n "s/^/add address=/g" cnipv4.rsc
+        sed -i -n "s/$/ list=CNIP/g" cnipv4.rsc
+        sed -i -n $"1i\/ip firewall address-list" cnipv4.rsc
+        sed -i -n $"1i\remove [find list=CNIP]" cnipv4.rsc
+        sed -i -n $"1i\add address=10.0.0.0/8 list=CNIP" cnipv4.rsc
+        sed -i -n $"1i\add address=172.16.0.0/12 list=CNIP" cnipv4.rsc
+        sed -i -n $"1i\add address=192.168.0.0/16 list=CNIP" cnipv4.rsc
        
     - name: Clean
       run: |
