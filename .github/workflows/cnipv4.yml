@@ -33,7 +33,7 @@ jobs:
         Hackl0us="$(curl -kLfsm 5 https://raw.githubusercontent.com/Hackl0us/GeoIP2-CN/release/CN-ip-cidr.txt)"
         misakaio="$(curl -kLfsm 5 https://raw.githubusercontent.com/misakaio/chnroutes2/master/chnroutes.txt)"
         echo "$misakaio" > output.txt
-        sed -i -n "s/^#/d" output.txt
+        sed -i -n '/^#/d' output.txt
         misakaio="$(cat output.txt)"
         biglist="$qqwry\n$ipipnet\n$clang\n$mayax\n$gaoyifan\n$Hackl0us\n$misakaio"
         echo -e "${biglist}" | sort | uniq > merger.txt
