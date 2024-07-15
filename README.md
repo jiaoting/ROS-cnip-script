@@ -2,8 +2,16 @@
 
 此ip列表整合了[kiddin9/china_ip_list](https://github.com/kiddin9/china_ip_list)、[Sereinfy/china_ip_list](https://github.com/Sereinfy/china_ip_list)，并参考[MF2022/ROS-cnip-script](https://github.com/DMF2022/ROS-cnip-script)添加了ROS脚本，另外增加了[Akamai-ASN-and-IPs-List](https://github.com/SecOps-Institute/Akamai-ASN-and-IPs-List)，使用合并ip解决国内分流无法覆盖的局限性（如某些厂商服务分流无法正常使用，比如联想应用商店，微软商店，微软更新等），并加入ROS的导入命令制作而成。
 
+IP参考源：
+[qqwry](https://www.github.com/metowolf/iplist)
+[ipipnet](https://www.github.com/17mon/china_ip_list/)
+[clang](https://ispip.clang.cn/)
+[mayax](https://www.github.com/mayaxcn/china-ip-list/)
+[gaoyifan](https://www.github.com/gaoyifan/china-operator-ip/)
+[Hackl0us](https://www.github.com/Hackl0us/GeoIP2-CN/)
+[misakaio](https://www.github.com/misakaio/chnroutes2/)
 
->此项目包含IPV4、IPV6地址。
+>此项目包含IPV4、IPV6地址,脚本
 
 >自动修改为ROS命令脚本文件，使用Github Actions每小时定期更新。
 
@@ -13,15 +21,6 @@
 
 >增加了10.0.0.0/8，172.16.0.0/12，192.168.0.0/16三个内网网段到CN列表，避免本地网络和VPN网络走标记路由。
 
->脚本IP参考源：
-
-> qqwry=https://www.github.com/metowolf/iplist
-  ipipnet=https://www.github.com/17mon/china_ip_list/
-  clang=https://ispip.clang.cn/
-  mayax=https://www.github.com/mayaxcn/china-ip-list/
-  gaoyifan=https://www.github.com/gaoyifan/china-operator-ip/
-  Hackl0us=https://www.github.com/Hackl0us/GeoIP2-CN/
-  misakaio=https://www.github.com/misakaio/chnroutes2/
 
 附：ROS导入脚本
 
