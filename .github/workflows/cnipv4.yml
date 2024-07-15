@@ -34,6 +34,7 @@ jobs:
         misakaio="$(curl -kLfsm 5 https://raw.githubusercontent.com/misakaio/chnroutes2/master/chnroutes.txt)"
         biglist="$qqwry\n$ipipnet\n$clang\n$mayax\n$gaoyifan\n$Hackl0us\n$misakaio"
         echo -e "${biglist}" | sort | uniq > merger.txt
+        sed -i -n '/^#/d' merger.txt
 
     - name: Download cidr-merger Setup 
       run: |
@@ -50,7 +51,6 @@ jobs:
         
     - name: add ROS script
       run: |
-        sed -i -n '/^#/d' cnipv4.rsc
         sed -i -n 's/^/add address=/g' cnipv4.rsc
         sed -i -n 's/$/ list=CNIP/g' cnipv4.rsc
         sed -i -n '1i\add address=10.0.0.0/8 list=CNIP' cnipv4.rsc
