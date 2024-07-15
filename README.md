@@ -13,6 +13,16 @@
 
 >增加了10.0.0.0/8，172.16.0.0/12，192.168.0.0/16三个内网网段到CN列表，避免本地网络和VPN网络走标记路由。
 
+>脚本IP参考源：
+
+> qqwry=https://www.github.com/metowolf/iplist
+  ipipnet=https://www.github.com/17mon/china_ip_list/
+  clang=https://ispip.clang.cn/
+  mayax=https://www.github.com/mayaxcn/china-ip-list/
+  gaoyifan=https://www.github.com/gaoyifan/china-operator-ip/
+  Hackl0us=https://www.github.com/Hackl0us/GeoIP2-CN/
+  misakaio=https://www.github.com/misakaio/chnroutes2/
+
 附：ROS导入脚本
 
 >请确保ROS网络可以正常访问github。
