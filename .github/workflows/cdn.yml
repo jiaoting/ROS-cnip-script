@@ -1,0 +1,66 @@
+name: ROS CDN list
+
+on:
+  watch:
+    types: started
+  schedule:
+    - cron: "00 0 * * *"
+  workflow_dispatch:
+  
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+        
+    - name: Set git identity
+      run : |
+        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git config --global user.name "github-actions[bot]"
+        sudo timedatectl set-timezone "Asia/Shanghai"
+     
+    - name: Combine 
+      run: |
+        akamai="$(curl -kLfsm 5 https://raw.githubusercontent.com/SecOps-Institute/Akamai-ASN-and-IPs-List/master/akamai_ip_cidr_blocks.lst)"
+        biglist="$akamai\n"
+        echo -e "${biglist}" | sort | uniq > merger.txt
+        sed -i '/^#/d' merger.txt
+
+    - name: Download cidr-merger Setup 
+      run: |
+        if [ -f cidr-merger-linux-amd64 ]; then
+          echo "File exists"
+        else
+          wget https://github.com/zhanhb/cidr-merger/releases/download/v1.1.3/cidr-merger-linux-amd64
+        fi
+        
+    - name: merger file 
+      run: |
+        chmod +x cidr-merger-linux-amd64
+        ./cidr-merger-linux-amd64 -s merger.txt > cdn.rsc
+
+        
+    - name: add ROS script
+      run: |
+        sed -i 's/^/add address=/g' cdn.rsc
+        sed -i 's/$/ list=CDN/g' cdn.rsc
+        sed -i '1i\add address=10.0.0.0/8 list=CDN' cdn.rsc
+        sed -i '1i\add address=172.16.0.0/12 list=CDN' cdn.rsc
+        sed -i '1i\add address=192.168.0.0/16 list=CDN' cdn.rsc
+        sed -i '1i\/ip firewall address-list \nremove [find list=CDN]' cdn.rsc
+       
+    - name: Clean
+      run: |
+        #rm merger.txt
+        rm cidr-merger-linux-amd64
+        
+    - name: Apply
+      run: |
+        Emoji=("🎉" "🤞" "✨" "🎁" "🎈" "🎄" "🎨" "💋" "🍓" "🍕" "🍉" "💐" "🌴" "🚀" "🛸" "🗽" "⛅" "🌈" "🔥" "⛄" "🐶" "🏅" "🦄" "🐤")
+        git add .
+        git commit -m "${Emoji[$[$RANDOM % ${#Emoji[@]}]]} Sync $(date +%Y-%m-%d" "%H:%M:%S)"
+        git push -f
