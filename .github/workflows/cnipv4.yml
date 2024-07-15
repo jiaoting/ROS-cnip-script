@@ -33,8 +33,8 @@ jobs:
         Hackl0us="$(curl -kLfsm 5 https://raw.githubusercontent.com/Hackl0us/GeoIP2-CN/release/CN-ip-cidr.txt)"
         misakaio="$(curl -kLfsm 5 https://raw.githubusercontent.com/misakaio/chnroutes2/master/chnroutes.txt)"
         biglist="$qqwry\n$ipipnet\n$clang\n$mayax\n$gaoyifan\n$Hackl0us\n$misakaio"
-        echo -e "${biglist}" | sort | uniq > merger_v4.txt
-        sed -i -n '/^#/d' merger_v4.txt
+        echo -e "${biglist}" | sort | uniq > merger.txt
+        sed -i -n '/^#/d' merger.txt
 
     - name: Download cidr-merger Setup 
       run: |
@@ -46,8 +46,9 @@ jobs:
         
     - name: merger file 
       run: |
-        chmod +x cidr-merger
-        cat merger_v4.txt | ./cidr-merger  > cnipv4.rsc
+        chmod +x cidr-merger-linux-amd64
+        ./cidr-merger-linux-amd64 merger.txt > china_ip_list.txt
+
         
     - name: add ROS script
       run: |
