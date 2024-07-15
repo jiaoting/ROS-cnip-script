@@ -1,11 +1,11 @@
 # ROS-cnip-script
 
-此ip列表搬运自[kiddin9/china_ip_list](https://github.com/kiddin9/china_ip_list)，并在[MF2022/ROS-cnip-script](https://github.com/DMF2022/ROS-cnip-script)的基础上，增加了[Akamai-ASN-and-IPs-List](https://github.com/SecOps-Institute/Akamai-ASN-and-IPs-List)，使用合并ip解决国内分流无法覆盖的局限性（如某些厂商服务分流无法正常使用，比如联想应用商店，微软商店，微软更新等），并加入ROS的导入命令制作而成。
+此ip列表整合了[kiddin9/china_ip_list](https://github.com/kiddin9/china_ip_list)、[Sereinfy/china_ip_list](https://github.com/Sereinfy/china_ip_list)，并参考[MF2022/ROS-cnip-script](https://github.com/DMF2022/ROS-cnip-script)添加了ROS脚本，另外增加了[Akamai-ASN-and-IPs-List](https://github.com/SecOps-Institute/Akamai-ASN-and-IPs-List)，使用合并ip解决国内分流无法覆盖的局限性（如某些厂商服务分流无法正常使用，比如联想应用商店，微软商店，微软更新等），并加入ROS的导入命令制作而成。
 
 
 >此项目包含IPV4、IPV6地址。
 
->自动修改为ROS命令脚本文件，不定期更新。
+>自动修改为ROS命令脚本文件，使用Github Actions每小时定期更新。
 
 >加了一条在导入前清空名为“CNIP”列表的命令，避免出现新旧列表交叉冲突。
 
@@ -31,7 +31,6 @@
 
 /import cnipv4.rsc
 /import cnipv6.rsc
-/import Apple.rsc
 
 :local CNIPv4new [:len [/ip firewall address-list find list="CNIP"]]
 :local CNIPv6new [:len [/ipv6 firewall address-list find list="CNIP"]]
