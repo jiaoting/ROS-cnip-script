@@ -26,10 +26,29 @@ jobs:
     - name: Combine
       run: |
         clang="$(curl -kLfsm 5 https://ispip.clang.cn/all_cn_ipv6.txt)"
-        akamai="$(curl -kLfsm 5 https://raw.githubusercontent.com/SecOps-Institute/Akamai-ASN-and-IPs-List/master/akamai_ipv6_list.lst)"
-        iplist="$clang\n$akamai"
-        echo -e "${iplist}" | sort | uniq | sed -e 's/^/add address=/g' -e 's/$/ list=CNIP/g' | sed -e $'1i\\\n/ipv6 firewall address-list' -e $'1i\\\nremove [find list=CNIP]' > cnipv6.rsc
+        mayax="$(curl -kLfsm 5 https://raw.githubusercontent.com/mayaxcn/china-ip-list/master/chnroute_v6.txt)"
+        gaoyifan="$(curl -kLfsm 5 https://raw.githubusercontent.com/gaoyifan/china-operator-ip/ip-lists/china6.txt)"
+        biglist="$clang\n$mayax\n$gaoyifan"
+        echo -e "${biglist}" | sort | uniq > merger.txt
 
+    - name: Download cidr-merger Setup 
+      run: |
+        if [ -f cidr-merger-linux-amd64 ]; then
+          echo "File exists"
+        else
+          wget https://github.com/zhanhb/cidr-merger/releases/download/v1.1.3/cidr-merger-linux-amd64
+        fi
+        
+    - name: merger file 
+      run: |
+        chmod +x cidr-merger-linux-amd64
+        ./cidr-merger-linux-amd64 merger.txt > china_ip_list_v6.txt
+        rm merger.txt
+        
+    - name: add ROS script
+      run: |
+        echo -e "china_ip_list_v6.txt" | sort | uniq | sed -e 's/^/add address=/g' -e 's/$/ list=CNIP/g' | sed -e $'1i\\\n/ipv6 firewall address-list' -e $'1i\\\nremove [find list=CNIP]' > cnipv6.rsc
+        
     - name: Apply
       run: |
         Emoji=("🎉" "🤞" "✨" "🎁" "🎈" "🎄" "🎨" "💋" "🍓" "🍕" "🍉" "💐" "🌴" "🚀" "🛸" "🗽" "⛅" "🌈" "🔥" "⛄" "🐶" "🏅" "🦄" "🐤")
