@@ -43,11 +43,16 @@ jobs:
       run: |
         chmod +x cidr-merger-linux-amd64
         ./cidr-merger-linux-amd64 merger.txt > china_ip_list_v6.txt
-        rm merger.txt
         
     - name: add ROS script
       run: |
         echo -e "china_ip_list_v6.txt" | sort | uniq | sed -e 's/^/add address=/g' -e 's/$/ list=CNIP/g' | sed -e $'1i\\\n/ipv6 firewall address-list' -e $'1i\\\nremove [find list=CNIP]' > cnipv6.rsc
+
+    - name: Clean
+      run: |
+        rm output.txt
+        rm merger.txt
+        rm china_ip_list_v6.txt
         
     - name: Apply
       run: |
