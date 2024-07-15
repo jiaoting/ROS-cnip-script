@@ -46,10 +46,10 @@ jobs:
         
     - name: add ROS script
       run: |
-        sed -i -n 's/^/add address=/g'
-        sed -i -n 's/$/ list=CNIP/g'
-        sed -i -n $'1i\/ipv6 firewall address-list' 
-        sed -i -n $'1i\remove [find list=CNIP]'
+        sed -i -n 's/^/add address=/g' cnipv6.rsc
+        sed -i -n 's/$/ list=CNIP/g' cnipv6.rsc
+        sed -i -n $'1i\/ipv6 firewall address-list' cnipv6.rsc
+        sed -i -n $'1i\remove [find list=CNIP]' cnipv6.rsc
 
     - name: Clean
       run: |
