@@ -41,9 +41,8 @@ jobs:
         
     - name: merger file 
       run: |
-        cd ./utils
-        chmod +x cidr-merger-linux-amd64
-        ./cidr-merger-linux-amd64 merger.txt > china_ip_list_v6.txt
+        chmod +x ./utils/cidr-merger-linux-amd64
+        ./utils/cidr-merger-linux-amd64 merger.txt > china_ip_list_v6.txt
         
     - name: add ROS script
       run: |
