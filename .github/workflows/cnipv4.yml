@@ -25,17 +25,17 @@ jobs:
      
     - name: Combine 
       run: |
-        
-        misakaio="$(curl -kLfsm 5 https://raw.githubusercontent.com/misakaio/chnroutes2/master/chnroutes.txt)"
-        mayax="$(curl -kLfsm 5 https://raw.githubusercontent.com/mayaxcn/china-ip-list/master/chnroute.txt)"
+        qqwry="$(curl -kLfsm 5 https://raw.githubusercontent.com/metowolf/iplist/master/data/country/CN.txt)"
         ipipnet="$(curl -kLfsm 5 https://raw.githubusercontent.com/17mon/china_ip_list/master/china_ip_list.txt)"
-        gaoyifan="$(curl -kLfsm 5 https://raw.githubusercontent.com/gaoyifan/china-operator-ip/ip-lists/china.txt)"
         clang="$(curl -kLfsm 5 https://ispip.clang.cn/all_cn.txt)"
+        mayax="$(curl -kLfsm 5 https://raw.githubusercontent.com/mayaxcn/china-ip-list/master/chnroute.txt)"
+        gaoyifan="$(curl -kLfsm 5 https://raw.githubusercontent.com/gaoyifan/china-operator-ip/ip-lists/china.txt)"
         Hackl0us="$(curl -kLfsm 5 https://raw.githubusercontent.com/Hackl0us/GeoIP2-CN/release/CN-ip-cidr.txt)"
+        misakaio="$(curl -kLfsm 5 https://raw.githubusercontent.com/misakaio/chnroutes2/master/chnroutes.txt)"
         echo "$misakaio" > output.txt
         sed -i -n 's/^#/d' output.txt
-        misakaio2="$(cat output.txt)"
-        biglist="$qqwry\n$ipipnet\n$clang\n$misakaio2\n$mayax\n$gaoyifan\n$Hackl0us"
+        misakaio="$(cat output.txt)"
+        biglist="$qqwry\n$ipipnet\n$clang\n$mayax\n$gaoyifan\n$Hackl0us\n$misakaio"
         echo -e "${biglist}" | sort | uniq > merger.txt
 
     - name: Download cidr-merger Setup 
@@ -51,6 +51,7 @@ jobs:
         chmod +x cidr-merger-linux-amd64
         ./cidr-merger-linux-amd64 merger.txt > china_ip_list_v4.txt
         rm output.txt
+        rm merger.txt
         
     - name: add ROS script
       run: |
