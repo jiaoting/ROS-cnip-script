@@ -47,7 +47,7 @@ jobs:
     - name: merger file 
       run: |
         chmod +x cidr-merger
-        ./cidr-merger merger_v4.txt > cnipv4.rsc
+        ./cidr-merger merger_v4.txt > cnipv4.txt
         
     - name: add ROS script
       run: |
