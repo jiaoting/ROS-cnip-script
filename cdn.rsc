@@ -49,6 +49,7 @@ add address=15.158.0.0/16 list=CDN
 add address=15.188.184.0/24 list=CDN
 add address=15.207.13.128/25 list=CDN
 add address=15.207.213.128/25 list=CDN
+add address=17.0.0.0/8 list=CDN
 add address=18.64.0.0/14 list=CDN
 add address=18.68.0.0/16 list=CDN
 add address=18.154.0.0/15 list=CDN
@@ -153,6 +154,8 @@ add address=54.233.255.128/26 list=CDN
 add address=54.239.128.0/18 list=CDN
 add address=54.239.192.0/19 list=CDN
 add address=54.240.128.0/18 list=CDN
+add address=57.102.0.0/15 list=CDN
+add address=57.112.0.0/12 list=CDN
 add address=58.254.138.0/25 list=CDN
 add address=58.254.138.128/26 list=CDN
 add address=59.151.128.0/18 list=CDN
@@ -234,6 +237,7 @@ add address=65.118.123.128/26 list=CDN
 add address=65.123.23.0/28 list=CDN
 add address=65.158.180.0/24 list=CDN
 add address=65.158.184.0/24 list=CDN
+add address=65.199.22.0/23 list=CDN
 add address=65.202.32.0/22 list=CDN
 add address=66.160.141.0/24 list=CDN
 add address=66.171.231.0/25 list=CDN
@@ -505,6 +509,7 @@ add address=139.144.0.0/16 list=CDN
 add address=139.162.0.0/16 list=CDN
 add address=139.177.176.0/20 list=CDN
 add address=139.177.192.0/20 list=CDN
+add address=139.178.128.0/18 list=CDN
 add address=140.99.95.0/24 list=CDN
 add address=140.174.24.0/23 list=CDN
 add address=140.248.64.0/18 list=CDN
@@ -513,6 +518,7 @@ add address=141.101.64.0/18 list=CDN
 add address=141.226.111.0/24 list=CDN
 add address=143.42.0.0/16 list=CDN
 add address=143.204.0.0/16 list=CDN
+add address=144.178.0.0/18 list=CDN
 add address=144.220.0.0/16 list=CDN
 add address=146.75.0.0/17 list=CDN
 add address=146.80.0.0/16 list=CDN
