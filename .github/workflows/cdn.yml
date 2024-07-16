@@ -26,8 +26,8 @@ jobs:
     - name: Combine 
       run: |
         akamai="$(curl -kLfsm 5 https://raw.githubusercontent.com/SecOps-Institute/Akamai-ASN-and-IPs-List/master/akamai_ip_cidr_blocks.lst)"
-        cdn-ranges="$(curl -kLfsm 5 https://raw.githubusercontent.com/schniggie/cdn-ranges/main/output/all-cdn.txt)"
-        biglist="$akamai\n$cdn-ranges"
+        cdnranges="$(curl -kLfsm 5 https://raw.githubusercontent.com/schniggie/cdn-ranges/main/output/all-cdn.txt)"
+        biglist="$akamai\n$cdnranges"
         echo -e "${biglist}" | sort | uniq > merger.txt
         sed -i '/^#/d' merger.txt
 
