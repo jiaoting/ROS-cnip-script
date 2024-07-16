@@ -61,7 +61,7 @@ jobs:
        
     - name: Clean
       run: |
-        #rm merger.txt
+        rm merger.txt
         rm cidr-merger-linux-amd64
         
     - name: Apply
