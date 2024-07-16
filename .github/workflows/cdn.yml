@@ -26,7 +26,8 @@ jobs:
     - name: Combine 
       run: |
         akamai="$(curl -kLfsm 5 https://raw.githubusercontent.com/SecOps-Institute/Akamai-ASN-and-IPs-List/master/akamai_ip_cidr_blocks.lst)"
-        biglist="$akamai\n"
+        cdnranges="$(curl -kLfsm 5 https://raw.githubusercontent.com/schniggie/cdn-ranges/main/output/all-cdn.txt)"
+        biglist="$akamai\n$cdnranges"
         echo -e "${biglist}" | sort | uniq > merger.txt
         sed -i '/^#/d' merger.txt
 
@@ -48,9 +49,6 @@ jobs:
       run: |
         sed -i 's/^/add address=/g' cdn.rsc
         sed -i 's/$/ list=CDN/g' cdn.rsc
-        sed -i '1i\add address=10.0.0.0/8 list=CDN' cdn.rsc
-        sed -i '1i\add address=172.16.0.0/12 list=CDN' cdn.rsc
-        sed -i '1i\add address=192.168.0.0/16 list=CDN' cdn.rsc
         sed -i '1i\/ip firewall address-list \nremove [find list=CDN]' cdn.rsc
        
     - name: Clean
