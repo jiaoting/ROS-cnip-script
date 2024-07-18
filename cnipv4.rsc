@@ -976,7 +976,7 @@ add address=45.192.189.0/24 list=CNIP
 add address=45.192.190.0/24 list=CNIP
 add address=45.195.6.0/24 list=CNIP
 add address=45.207.25.0/24 list=CNIP
-add address=45.207.27.0/24 list=CNIP
+add address=45.207.26.0/23 list=CNIP
 add address=45.207.128.0/19 list=CNIP
 add address=45.207.176.0/20 list=CNIP
 add address=45.248.8.0/22 list=CNIP
