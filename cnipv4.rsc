@@ -4916,7 +4916,7 @@ add address=163.181.191.0/24 list=CNIP
 add address=163.181.192.0/23 list=CNIP
 add address=163.181.196.0/22 list=CNIP
 add address=163.181.201.0/24 list=CNIP
-add address=163.181.203.0/24 list=CNIP
+add address=163.181.202.0/23 list=CNIP
 add address=163.181.205.0/24 list=CNIP
 add address=163.181.206.0/23 list=CNIP
 add address=163.204.0.0/16 list=CNIP
