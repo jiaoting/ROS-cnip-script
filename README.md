@@ -9,7 +9,7 @@
 [gaoyifan](https://www.github.com/gaoyifan/china-operator-ip/)、
 [Hackl0us](https://www.github.com/Hackl0us/GeoIP2-CN/)、
 [misakaio](https://www.github.com/misakaio/chnroutes2/)
-
+- 为解决某些厂商服务分流后网速变慢或无法使用的情况（比如Apple更新、联想应用商店，微软商店，微软更新等），IPv4列表增加Extra文件夹里的IP列表内容
 - 所有IP列表使用[cidr-merger](https://github.com/zhanhb/cidr-merger/)合并优化缩表
 - 参考[MF2022/ROS-cnip-script](https://github.com/DMF2022/ROS-cnip-script)添加了ROS脚本命令制作而成，可实现ROS一键导入。
   >加了一条在导入前清空名为“CNIP”列表的命令，避免出现新旧列表交叉冲突。
