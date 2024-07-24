@@ -34,7 +34,7 @@ jobs:
         misakaio="$(curl -kLfsm 5 https://raw.githubusercontent.com/misakaio/chnroutes2/master/chnroutes.txt)"
         apple="$(curl -kLfsm 5 https://raw.githubusercontent.com/jiaoting/ROS-cnip-script/main/extra/Apple.txt)"
         
-        biglist="$qqwry\n$ipipnet\n$clang\n$mayax\n$gaoyifan\n$Hackl0us\n$misakaio"
+        biglist="$qqwry\n$ipipnet\n$clang\n$mayax\n$gaoyifan\n$Hackl0us\n$misakaio\n$apple"
         echo -e "${biglist}" | sort | uniq > merger.txt
         sed -i '/^#/d' merger.txt
 
