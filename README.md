@@ -9,9 +9,7 @@
 [gaoyifan](https://www.github.com/gaoyifan/china-operator-ip/)、
 [Hackl0us](https://www.github.com/Hackl0us/GeoIP2-CN/)、
 [misakaio](https://www.github.com/misakaio/chnroutes2/)
-- 新增CDN服务器IP列表（Apple、Akamai、CacheFly、CDNetworks、Cloudflare、CloudFront、DDoS Guard、Fastly、Incapsula、Limelight、MaxCDN、Qrator、StackPath、StormWall、Sucuri、X4B），解决国内分流无法覆盖的局限性（如某些厂商服务分流无法正常使用，比如联想应用商店，微软商店，微软更新，Apple国内服务器等），CDN参考源：
-[Akamai-ASN-and-IPs-List](https://github.com/SecOps-Institute/Akamai-ASN-and-IPs-List)、
-[CDN Ranges](https://github.com/schniggie/cdn-ranges)
+
 - 所有IP列表使用[cidr-merger](https://github.com/zhanhb/cidr-merger/)合并优化缩表
 - 参考[MF2022/ROS-cnip-script](https://github.com/DMF2022/ROS-cnip-script)添加了ROS脚本命令制作而成，可实现ROS一键导入。
   >加了一条在导入前清空名为“CNIP”列表的命令，避免出现新旧列表交叉冲突。
@@ -36,21 +34,17 @@
 
 /tool fetch url=https://mirror.ghproxy.com/https://raw.githubusercontent.com/jiaoting/ROS-cnip-script/main/cnipv4.rsc
 /tool fetch url=https://mirror.ghproxy.com/https://raw.githubusercontent.com/jiaoting/ROS-cnip-script/main/cnipv6.rsc
-/tool fetch url=https://mirror.ghproxy.com/https://raw.githubusercontent.com/jiaoting/ROS-cnip-script/main/cdn.rsc
 
 /system logging disable 0
 
 :local CNIPv4old [:len [/ip firewall address-list find list="CNIP"]]
 :local CNIPv6old [:len [/ipv6 firewall address-list find list="CNIP"]]
-:local CDNold [:len [/ip firewall address-list find list="CDN"]]
 
 /import cnipv4.rsc
 /import cnipv6.rsc
-/import cdn.rsc
 
 :local CNIPv4new [:len [/ip firewall address-list find list="CNIP"]]
 :local CNIPv6new [:len [/ipv6 firewall address-list find list="CNIP"]]
-:local CDNnew [:len [/ip firewall address-list find list="CDN"]]
 
 /system logging enable 0
 
