@@ -32,10 +32,10 @@ jobs:
         gaoyifan="$(curl -kLfsm 5 https://raw.githubusercontent.com/gaoyifan/china-operator-ip/ip-lists/china.txt)"
         Hackl0us="$(curl -kLfsm 5 https://raw.githubusercontent.com/Hackl0us/GeoIP2-CN/release/CN-ip-cidr.txt)"
         misakaio="$(curl -kLfsm 5 https://raw.githubusercontent.com/misakaio/chnroutes2/master/chnroutes.txt)"
-        apple="$(curl -kLfsm 5 https://raw.githubusercontent.com/jiaoting/ROS-cnip-script/main/extra/Apple.txt)"
         
-        biglist="$qqwry\n$ipipnet\n$clang\n$mayax\n$gaoyifan\n$Hackl0us\n$misakaio\n$apple"
+        biglist="$qqwry\n$ipipnet\n$clang\n$mayax\n$gaoyifan\n$Hackl0us\n$misakaio\n"
         echo -e "${biglist}" | sort | uniq > merger.txt
+        cat ./extra/* > merger.txt
         sed -i '/^#/d' merger.txt
 
     - name: Download cidr-merger Setup 
