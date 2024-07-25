@@ -35,7 +35,7 @@ jobs:
         
         biglist="$qqwry\n$ipipnet\n$clang\n$mayax\n$gaoyifan\n$Hackl0us\n$misakaio\n"
         echo -e "${biglist}" | sort | uniq > merger.txt
-        cat ./extra/* > merger.txt
+        cat ./extra/* >> merger.txt
         sed -i '/^#/d' merger.txt
 
     - name: Download cidr-merger Setup 
