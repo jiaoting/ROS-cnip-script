@@ -5060,7 +5060,6 @@ add address=192.144.128.0/17 list=CNIP
 add address=192.163.11.0/24 list=CNIP
 add address=192.169.104.0/22 list=CNIP
 add address=192.197.113.0/24 list=CNIP
-add address=192.208.2.0/24 list=CNIP
 add address=192.232.97.0/24 list=CNIP
 add address=193.17.120.0/22 list=CNIP
 add address=193.20.64.0/22 list=CNIP
