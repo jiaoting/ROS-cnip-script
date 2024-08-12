@@ -4473,6 +4473,7 @@ add address=140.248.33.2/31 list=CNIP
 add address=140.249.0.0/16 list=CNIP
 add address=140.250.0.0/16 list=CNIP
 add address=140.255.0.0/16 list=CNIP
+add address=141.11.50.0/23 list=CNIP
 add address=142.70.0.0/16 list=CNIP
 add address=142.86.0.0/16 list=CNIP
 add address=142.254.141.188/30 list=CNIP
@@ -6505,6 +6506,7 @@ add address=204.74.96.0/24 list=CNIP
 add address=204.114.176.0/23 list=CNIP
 add address=206.161.216.0/23 list=CNIP
 add address=206.161.218.0/24 list=CNIP
+add address=206.237.112.0/20 list=CNIP
 add address=207.68.174.8/29 list=CNIP
 add address=207.226.136.0/23 list=CNIP
 add address=207.226.138.0/24 list=CNIP
