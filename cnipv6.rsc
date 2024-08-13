@@ -2264,6 +2264,7 @@ add address=2a0f:7803:fe21::/48 list=CNIP
 add address=2a0f:7803:fe22::/48 list=CNIP
 add address=2a0f:7803:fe24::/48 list=CNIP
 add address=2a0f:7803:fe40::/48 list=CNIP
+add address=2a0f:7803:fe43::/48 list=CNIP
 add address=2a0f:7803:fe80::/47 list=CNIP
 add address=2a0f:7803:fe82::/48 list=CNIP
 add address=2a0f:7803:fe84::/48 list=CNIP
