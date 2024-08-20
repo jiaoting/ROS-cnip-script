@@ -93,7 +93,6 @@ add address=2001:df6:100::/48 list=CNIP
 add address=2001:df6:3d00::/48 list=CNIP
 add address=2001:df6:5d00::/48 list=CNIP
 add address=2001:df6:6800::/48 list=CNIP
-add address=2001:df6:9e80::/48 list=CNIP
 add address=2001:df6:df00::/48 list=CNIP
 add address=2001:df6:f400::/48 list=CNIP
 add address=2001:df7:1480::/48 list=CNIP
@@ -519,7 +518,6 @@ add address=2401:4a80::/32 list=CNIP
 add address=2401:4b00::/32 list=CNIP
 add address=2401:4f80::/32 list=CNIP
 add address=2401:5180::/32 list=CNIP
-add address=2401:5680::/32 list=CNIP
 add address=2401:58a0::/32 list=CNIP
 add address=2401:5960::/32 list=CNIP
 add address=2401:59c0::/32 list=CNIP
@@ -648,6 +646,8 @@ add address=2401:ba40::/32 list=CNIP
 add address=2401:bb20::/32 list=CNIP
 add address=2401:bb80::/32 list=CNIP
 add address=2401:bc60::/31 list=CNIP
+add address=2401:bd60::/32 list=CNIP
+add address=2401:bda0::/32 list=CNIP
 add address=2401:be00::/32 list=CNIP
 add address=2401:c200::/32 list=CNIP
 add address=2401:c540::/32 list=CNIP
@@ -1322,7 +1322,6 @@ add address=2404:3740::/32 list=CNIP
 add address=2404:37c0::/32 list=CNIP
 add address=2404:3840::/32 list=CNIP
 add address=2404:3940::/32 list=CNIP
-add address=2404:3b00::/34 list=CNIP
 add address=2404:3bc0::/32 list=CNIP
 add address=2404:3c40::/32 list=CNIP
 add address=2404:3f40::/32 list=CNIP
@@ -2205,6 +2204,7 @@ add address=2a0a:6040:3430::/48 list=CNIP
 add address=2a0a:6040:34ff::/48 list=CNIP
 add address=2a0a:6040:ec00::/40 list=CNIP
 add address=2a0a:6044:b800::/40 list=CNIP
+add address=2a0b:b87:ffb5::/48 list=CNIP
 add address=2a0b:2542::/48 list=CNIP
 add address=2a0c:9a40:9e00::/43 list=CNIP
 add address=2a0c:b641:571::/48 list=CNIP
@@ -2289,6 +2289,7 @@ add address=2a13:1801:180::/43 list=CNIP
 add address=2a13:18c4::/32 list=CNIP
 add address=2a13:4900::/29 list=CNIP
 add address=2a13:a5c7:1200::/40 list=CNIP
+add address=2a13:a5c7:1801::/48 list=CNIP
 add address=2a13:a5c7:1802::/47 list=CNIP
 add address=2a13:a5c7:1804::/47 list=CNIP
 add address=2a13:a5c7:1888::/48 list=CNIP
