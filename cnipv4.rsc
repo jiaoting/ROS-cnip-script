@@ -4790,8 +4790,7 @@ add address=163.181.72.0/23 list=CNIP
 add address=163.181.74.0/24 list=CNIP
 add address=163.181.77.0/24 list=CNIP
 add address=163.181.78.0/23 list=CNIP
-add address=163.181.80.0/23 list=CNIP
-add address=163.181.82.0/24 list=CNIP
+add address=163.181.80.0/22 list=CNIP
 add address=163.181.85.0/24 list=CNIP
 add address=163.181.88.0/23 list=CNIP
 add address=163.181.90.0/24 list=CNIP
