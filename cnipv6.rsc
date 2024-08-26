@@ -2211,7 +2211,6 @@ add address=2a0b:b87:ffb5::/48 list=CNIP
 add address=2a0b:2542::/48 list=CNIP
 add address=2a0c:9a40:9e00::/43 list=CNIP
 add address=2a0c:b641:571::/48 list=CNIP
-add address=2a0e:15c0:6::/48 list=CNIP
 add address=2a0e:8f02:2182::/47 list=CNIP
 add address=2a0e:8f02:f062::/48 list=CNIP
 add address=2a0e:8f02:f067::/48 list=CNIP
