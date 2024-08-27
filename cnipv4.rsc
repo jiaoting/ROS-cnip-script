@@ -4619,7 +4619,7 @@ add address=154.209.251.0/24 list=CNIP
 add address=154.213.4.0/23 list=CNIP
 add address=154.218.7.0/24 list=CNIP
 add address=154.223.168.0/23 list=CNIP
-add address=154.223.178.0/23 list=CNIP
+add address=154.223.179.0/24 list=CNIP
 add address=154.223.180.0/24 list=CNIP
 add address=154.223.182.0/24 list=CNIP
 add address=154.223.188.0/23 list=CNIP
