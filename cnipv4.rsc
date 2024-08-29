@@ -4793,6 +4793,7 @@ add address=163.181.77.0/24 list=CNIP
 add address=163.181.78.0/23 list=CNIP
 add address=163.181.80.0/22 list=CNIP
 add address=163.181.85.0/24 list=CNIP
+add address=163.181.87.0/24 list=CNIP
 add address=163.181.88.0/23 list=CNIP
 add address=163.181.90.0/24 list=CNIP
 add address=163.181.92.0/24 list=CNIP
@@ -6462,6 +6463,8 @@ add address=203.176.64.0/19 list=CNIP
 add address=203.176.168.0/21 list=CNIP
 add address=203.181.102.58/32 list=CNIP
 add address=203.184.80.0/20 list=CNIP
+add address=203.184.131.0/24 list=CNIP
+add address=203.184.132.0/24 list=CNIP
 add address=203.184.142.128/26 list=CNIP
 add address=203.185.189.0/24 list=CNIP
 add address=203.187.160.0/19 list=CNIP
