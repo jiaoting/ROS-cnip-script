@@ -4770,11 +4770,11 @@ add address=163.177.0.0/16 list=CNIP
 add address=163.179.0.0/16 list=CNIP
 add address=163.181.0.0/23 list=CNIP
 add address=163.181.2.0/24 list=CNIP
-add address=163.181.15.0/24 list=CNIP
 add address=163.181.16.0/22 list=CNIP
 add address=163.181.22.0/23 list=CNIP
 add address=163.181.25.0/24 list=CNIP
 add address=163.181.26.0/24 list=CNIP
+add address=163.181.28.0/24 list=CNIP
 add address=163.181.32.0/21 list=CNIP
 add address=163.181.40.0/23 list=CNIP
 add address=163.181.42.0/24 list=CNIP
