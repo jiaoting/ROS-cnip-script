@@ -4949,6 +4949,7 @@ add address=180.233.64.0/19 list=CNIP
 add address=180.233.144.0/22 list=CNIP
 add address=180.235.64.0/19 list=CNIP
 add address=180.235.112.0/22 list=CNIP
+add address=181.215.29.0/24 list=CNIP
 add address=182.16.144.0/21 list=CNIP
 add address=182.16.192.0/19 list=CNIP
 add address=182.18.0.0/17 list=CNIP
