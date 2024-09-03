@@ -2200,6 +2200,7 @@ add address=2a09:b280:ff84::/47 list=CNIP
 add address=2a0a:2840:20::/43 list=CNIP
 add address=2a0a:2845:aab8::/46 list=CNIP
 add address=2a0a:2d04:1::/48 list=CNIP
+add address=2a0a:6040:3410::/48 list=CNIP
 add address=2a0a:6040:3420::/48 list=CNIP
 add address=2a0a:6040:3430::/48 list=CNIP
 add address=2a0a:6040:34ff::/48 list=CNIP
