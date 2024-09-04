@@ -4836,6 +4836,7 @@ add address=163.181.202.0/23 list=CNIP
 add address=163.181.205.0/24 list=CNIP
 add address=163.181.206.0/23 list=CNIP
 add address=163.181.216.0/24 list=CNIP
+add address=163.181.225.0/24 list=CNIP
 add address=163.181.228.0/23 list=CNIP
 add address=163.204.0.0/16 list=CNIP
 add address=163.228.0.0/16 list=CNIP
