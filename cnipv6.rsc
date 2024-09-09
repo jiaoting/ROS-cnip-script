@@ -2109,7 +2109,6 @@ add address=2602:fed2:731d::/48 list=CNIP
 add address=2602:feda:182::/47 list=CNIP
 add address=2602:feda:1bf::/48 list=CNIP
 add address=2602:feda:1d1::/48 list=CNIP
-add address=2602:feda:1d2::/48 list=CNIP
 add address=2602:feda:2d0::/47 list=CNIP
 add address=2602:feda:2f0::/48 list=CNIP
 add address=2602:feda:d80::/48 list=CNIP
