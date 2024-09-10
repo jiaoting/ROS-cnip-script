@@ -1000,7 +1000,6 @@ add address=45.255.192.0/19 list=CNIP
 add address=45.255.224.0/20 list=CNIP
 add address=45.255.240.0/21 list=CNIP
 add address=45.255.248.0/22 list=CNIP
-add address=46.3.104.0/22 list=CNIP
 add address=46.3.111.0/24 list=CNIP
 add address=46.8.178.0/23 list=CNIP
 add address=46.8.180.0/23 list=CNIP
