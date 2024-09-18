@@ -2248,6 +2248,7 @@ add address=2a0f:3f80::/29 list=CNIP
 add address=2a0f:5707:ac01::/48 list=CNIP
 add address=2a0f:7803:dd00::/41 list=CNIP
 add address=2a0f:7803:ddc0::/42 list=CNIP
+add address=2a0f:7803:f810::/44 list=CNIP
 add address=2a0f:7803:f840::/44 list=CNIP
 add address=2a0f:7803:f860::/44 list=CNIP
 add address=2a0f:7803:f8b0::/44 list=CNIP
