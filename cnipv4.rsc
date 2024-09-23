@@ -1042,7 +1042,6 @@ add address=47.246.44.0/23 list=CNIP
 add address=47.246.46.0/24 list=CNIP
 add address=47.246.48.0/23 list=CNIP
 add address=47.246.50.0/24 list=CNIP
-add address=47.246.57.0/24 list=CNIP
 add address=47.246.58.0/24 list=CNIP
 add address=47.246.60.0/23 list=CNIP
 add address=47.246.62.0/24 list=CNIP
