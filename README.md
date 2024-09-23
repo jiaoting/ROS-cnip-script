@@ -24,7 +24,7 @@
 
 附：ROS导入脚本
 
->已添加ghp.ci国内加速。
+>可添加ghp.ci国内加速。
 >
 >建议手动执行，也可以在/System Scheduler下添加一个脚本定时
 
@@ -32,8 +32,8 @@
 ```
 :log info ("CNIP列表更新中...")
 
-/tool fetch url=https://ghp.ci/https://raw.githubusercontent.com/jiaoting/ROS-cnip-script/main/cnipv4.rsc
-/tool fetch url=https://ghp.ci/https://raw.githubusercontent.com/jiaoting/ROS-cnip-script/main/cnipv6.rsc
+/tool fetch url=https://raw.githubusercontent.com/jiaoting/ROS-cnip-script/main/cnipv4.rsc
+/tool fetch url=https://raw.githubusercontent.com/jiaoting/ROS-cnip-script/main/cnipv6.rsc
 
 /system logging disable 0
 
