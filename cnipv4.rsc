@@ -4622,8 +4622,6 @@ add address=156.230.12.0/23 list=CNIP
 add address=156.236.97.0/24 list=CNIP
 add address=156.236.110.0/24 list=CNIP
 add address=156.236.116.0/24 list=CNIP
-add address=156.237.24.0/21 list=CNIP
-add address=156.237.96.0/21 list=CNIP
 add address=156.237.104.0/23 list=CNIP
 add address=156.242.5.0/24 list=CNIP
 add address=156.242.6.0/24 list=CNIP
