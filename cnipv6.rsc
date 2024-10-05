@@ -449,7 +449,6 @@ add address=2401:c40::/32 list=CNIP
 add address=2401:cc0::/32 list=CNIP
 add address=2401:d40::/32 list=CNIP
 add address=2401:e00::/32 list=CNIP
-add address=2401:e60:10::/44 list=CNIP
 add address=2401:1000::/32 list=CNIP
 add address=2401:1160::/32 list=CNIP
 add address=2401:11a0::/32 list=CNIP
@@ -2274,6 +2273,7 @@ add address=2a0f:7804:da00::/40 list=CNIP
 add address=2a0f:85c1:816::/48 list=CNIP
 add address=2a0f:85c1:89a::/48 list=CNIP
 add address=2a0f:9400:7700::/48 list=CNIP
+add address=2a0f:ac00::/29 list=CNIP
 add address=2a0f:dec0::/29 list=CNIP
 add address=2a10:2f00:15a::/48 list=CNIP
 add address=2a10:cc40:190::/48 list=CNIP
