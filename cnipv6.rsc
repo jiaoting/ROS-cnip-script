@@ -2163,10 +2163,9 @@ add address=2a04:f580:9270::/48 list=CNIP
 add address=2a04:f580:9280::/48 list=CNIP
 add address=2a04:f580:9290::/48 list=CNIP
 add address=2a05:1087::/32 list=CNIP
+add address=2a05:4140:66::/48 list=CNIP
 add address=2a06:1281:b000::/38 list=CNIP
 add address=2a06:1281:b400::/39 list=CNIP
-add address=2a06:1281:b700::/40 list=CNIP
-add address=2a06:1281:b800::/39 list=CNIP
 add address=2a06:3601::/32 list=CNIP
 add address=2a06:3602::/31 list=CNIP
 add address=2a06:3604::/32 list=CNIP
