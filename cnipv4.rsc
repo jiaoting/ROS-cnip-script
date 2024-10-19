@@ -4413,7 +4413,6 @@ add address=134.175.0.0/16 list=CNIP
 add address=137.59.59.0/24 list=CNIP
 add address=137.59.88.0/22 list=CNIP
 add address=138.32.244.0/24 list=CNIP
-add address=138.118.248.0/22 list=CNIP
 add address=139.5.56.0/21 list=CNIP
 add address=139.5.80.0/22 list=CNIP
 add address=139.5.92.0/22 list=CNIP
@@ -4843,11 +4842,9 @@ add address=168.159.152.0/22 list=CNIP
 add address=168.159.156.0/23 list=CNIP
 add address=168.159.158.0/24 list=CNIP
 add address=168.160.0.0/16 list=CNIP
-add address=170.82.72.0/23 list=CNIP
 add address=170.179.0.0/16 list=CNIP
 add address=170.225.224.0/23 list=CNIP
 add address=170.252.152.0/21 list=CNIP
-add address=170.254.241.0/24 list=CNIP
 add address=171.8.0.0/13 list=CNIP
 add address=171.34.0.0/15 list=CNIP
 add address=171.36.0.0/14 list=CNIP
