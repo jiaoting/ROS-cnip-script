@@ -2167,6 +2167,8 @@ add address=2a05:1087::/32 list=CNIP
 add address=2a05:4140:66::/48 list=CNIP
 add address=2a06:1281:b000::/38 list=CNIP
 add address=2a06:1281:b400::/39 list=CNIP
+add address=2a06:1281:b700::/40 list=CNIP
+add address=2a06:1281:b800::/39 list=CNIP
 add address=2a06:3601::/32 list=CNIP
 add address=2a06:3602::/31 list=CNIP
 add address=2a06:3604::/32 list=CNIP
@@ -2206,11 +2208,11 @@ add address=2a09:b280:ff84::/47 list=CNIP
 add address=2a0a:2840:20::/43 list=CNIP
 add address=2a0a:2845:aab8::/46 list=CNIP
 add address=2a0a:6040:3410::/48 list=CNIP
-add address=2a0a:6040:3420::/48 list=CNIP
 add address=2a0a:6040:3430::/48 list=CNIP
 add address=2a0a:6040:34ff::/48 list=CNIP
 add address=2a0a:6040:ec00::/40 list=CNIP
 add address=2a0a:6044:b800::/40 list=CNIP
+add address=2a0b:b87:ffb5::/48 list=CNIP
 add address=2a0b:2542::/48 list=CNIP
 add address=2a0c:9a40:9e00::/43 list=CNIP
 add address=2a0c:b641:571::/48 list=CNIP
@@ -2224,7 +2226,6 @@ add address=2a0e:aa01:1fff::/48 list=CNIP
 add address=2a0e:aa06::/40 list=CNIP
 add address=2a0e:aa06:440::/48 list=CNIP
 add address=2a0e:aa06:490::/44 list=CNIP
-add address=2a0e:aa06:4e0::/44 list=CNIP
 add address=2a0e:aa06:500::/44 list=CNIP
 add address=2a0e:aa06:520::/48 list=CNIP
 add address=2a0e:aa06:525::/48 list=CNIP
@@ -2258,8 +2259,7 @@ add address=2a0e:b107:16c0::/44 list=CNIP
 add address=2a0e:b107:178c::/47 list=CNIP
 add address=2a0f:5707:ac01::/48 list=CNIP
 add address=2a0f:7803:f7a0::/44 list=CNIP
-add address=2a0f:7803:f7c0::/43 list=CNIP
-add address=2a0f:7803:f7f0::/44 list=CNIP
+add address=2a0f:7803:f7c0::/42 list=CNIP
 add address=2a0f:7803:f800::/43 list=CNIP
 add address=2a0f:7803:f840::/44 list=CNIP
 add address=2a0f:7803:f860::/44 list=CNIP
@@ -2286,7 +2286,6 @@ add address=2a10:cc40:190::/48 list=CNIP
 add address=2a12:f8c0:1000::/40 list=CNIP
 add address=2a12:f8c3::/36 list=CNIP
 add address=2a13:1800::/48 list=CNIP
-add address=2a13:1800:10::/48 list=CNIP
 add address=2a13:1800:80::/44 list=CNIP
 add address=2a13:1800:300::/44 list=CNIP
 add address=2a13:1801:180::/43 list=CNIP
