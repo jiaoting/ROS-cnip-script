@@ -2320,6 +2320,7 @@ add address=2a14:7c0:4d02::/48 list=CNIP
 add address=2a14:4c41::/32 list=CNIP
 add address=2a14:7580:6000::/36 list=CNIP
 add address=2a14:7580:9200::/40 list=CNIP
+add address=2a14:7580:c000::/36 list=CNIP
 add address=2a14:7580:fa00::/40 list=CNIP
 add address=2a14:7581:b25::/48 list=CNIP
 add address=2a14:7581:b26::/48 list=CNIP
