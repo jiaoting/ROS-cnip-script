@@ -2237,7 +2237,6 @@ add address=2a0e:aa06:520::/48 list=CNIP
 add address=2a0e:aa06:525::/48 list=CNIP
 add address=2a0e:aa06:541::/48 list=CNIP
 add address=2a0e:aa07:e01b::/48 list=CNIP
-add address=2a0e:aa07:e021::/48 list=CNIP
 add address=2a0e:aa07:e024::/47 list=CNIP
 add address=2a0e:aa07:e030::/48 list=CNIP
 add address=2a0e:aa07:e035::/48 list=CNIP
