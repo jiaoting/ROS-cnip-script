@@ -4773,6 +4773,7 @@ add address=154.91.158.0/23 list=CNIP
 add address=154.195.64.0/19 list=CNIP
 add address=154.197.156.0/24 list=CNIP
 add address=154.197.163.0/24 list=CNIP
+add address=154.197.168.0/24 list=CNIP
 add address=154.197.172.0/24 list=CNIP
 add address=154.197.224.0/24 list=CNIP
 add address=154.198.128.0/19 list=CNIP
@@ -4846,6 +4847,7 @@ add address=156.236.119.0/24 list=CNIP
 add address=156.237.104.0/23 list=CNIP
 add address=156.239.0.0/20 list=CNIP
 add address=156.239.64.0/18 list=CNIP
+add address=156.239.224.0/19 list=CNIP
 add address=156.242.5.0/24 list=CNIP
 add address=156.242.6.0/24 list=CNIP
 add address=156.245.128.0/21 list=CNIP
