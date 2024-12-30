@@ -2331,6 +2331,7 @@ add address=2a14:67c1:70::/46 list=CNIP
 add address=2a14:67c1:74::/48 list=CNIP
 add address=2a14:67c1:510::/44 list=CNIP
 add address=2a14:67c1:520::/44 list=CNIP
+add address=2a14:67c1:610::/44 list=CNIP
 add address=2a14:67c1:701::/48 list=CNIP
 add address=2a14:67c1:703::/48 list=CNIP
 add address=2a14:67c1:704::/48 list=CNIP
