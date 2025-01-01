@@ -5010,7 +5010,7 @@ add address=163.181.26.0/24 list=CNIP
 add address=163.181.28.0/24 list=CNIP
 add address=163.181.32.0/21 list=CNIP
 add address=163.181.40.0/24 list=CNIP
-add address=163.181.42.0/24 list=CNIP
+add address=163.181.42.0/23 list=CNIP
 add address=163.181.44.0/24 list=CNIP
 add address=163.181.49.0/24 list=CNIP
 add address=163.181.50.0/24 list=CNIP
@@ -6759,6 +6759,7 @@ add address=203.171.224.0/20 list=CNIP
 add address=203.174.4.0/24 list=CNIP
 add address=203.174.6.0/23 list=CNIP
 add address=203.174.96.0/19 list=CNIP
+add address=203.175.12.0/24 list=CNIP
 add address=203.175.14.0/23 list=CNIP
 add address=203.175.128.0/19 list=CNIP
 add address=203.175.192.0/18 list=CNIP
