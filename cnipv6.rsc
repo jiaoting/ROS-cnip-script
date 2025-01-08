@@ -39,7 +39,6 @@ add address=2001:df1:5fc0::/48 list=CNIP
 add address=2001:df1:6180::/48 list=CNIP
 add address=2001:df1:61c0::/48 list=CNIP
 add address=2001:df1:a100::/48 list=CNIP
-add address=2001:df1:bd80::/48 list=CNIP
 add address=2001:df1:c900::/48 list=CNIP
 add address=2001:df1:d180::/48 list=CNIP
 add address=2001:df1:da00::/48 list=CNIP
@@ -2252,9 +2251,6 @@ add address=2a0e:aa07:e1e2::/47 list=CNIP
 add address=2a0e:aa07:e1e4::/47 list=CNIP
 add address=2a0e:aa07:e200::/44 list=CNIP
 add address=2a0e:aa07:ec10::/44 list=CNIP
-add address=2a0e:aa07:f000::/48 list=CNIP
-add address=2a0e:aa07:f004::/48 list=CNIP
-add address=2a0e:aa07:f008::/48 list=CNIP
 add address=2a0e:aa07:f0d0::/47 list=CNIP
 add address=2a0e:aa07:f0d2::/48 list=CNIP
 add address=2a0e:aa07:f0d4::/47 list=CNIP
