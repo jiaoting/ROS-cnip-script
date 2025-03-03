@@ -2185,7 +2185,7 @@ add address=2a06:1281:b200::/39 list=CNIP
 add address=2a06:1281:b400::/38 list=CNIP
 add address=2a06:1281:b800::/39 list=CNIP
 add address=2a06:3601::/32 list=CNIP
-add address=2a06:3602::/31 list=CNIP
+add address=2a06:3603::/32 list=CNIP
 add address=2a06:3607::/32 list=CNIP
 add address=2a06:9f81:4600::/43 list=CNIP
 add address=2a06:9f81:4620::/44 list=CNIP
