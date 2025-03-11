@@ -245,7 +245,7 @@ add address=38.47.108.0/23 list=CNIP
 add address=38.47.122.0/23 list=CNIP
 add address=38.55.135.0/24 list=CNIP
 add address=38.71.124.0/24 list=CNIP
-add address=38.71.126.0/24 list=CNIP
+add address=38.71.126.0/23 list=CNIP
 add address=38.76.140.0/23 list=CNIP
 add address=38.77.248.0/24 list=CNIP
 add address=38.95.118.0/23 list=CNIP
