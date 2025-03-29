@@ -2318,6 +2318,7 @@ add address=2a13:a5c7:1800::/40 list=CNIP
 add address=2a13:a5c7:2100::/48 list=CNIP
 add address=2a13:a5c7:2102::/48 list=CNIP
 add address=2a13:a5c7:2110::/48 list=CNIP
+add address=2a13:a5c7:2117::/48 list=CNIP
 add address=2a13:a5c7:2121::/48 list=CNIP
 add address=2a13:a5c7:2301::/48 list=CNIP
 add address=2a13:a5c7:2303::/48 list=CNIP
