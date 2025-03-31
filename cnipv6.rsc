@@ -196,6 +196,7 @@ add address=2400:60c0::/32 list=CNIP
 add address=2400:61c0::/32 list=CNIP
 add address=2400:6200::/32 list=CNIP
 add address=2400:6460::/39 list=CNIP
+add address=2400:6460:300::/40 list=CNIP
 add address=2400:6600::/32 list=CNIP
 add address=2400:6640::/32 list=CNIP
 add address=2400:66a0::/32 list=CNIP
