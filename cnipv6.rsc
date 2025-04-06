@@ -2259,6 +2259,7 @@ add address=2a0e:aa07:e21c::/47 list=CNIP
 add address=2a0e:aa07:e220::/44 list=CNIP
 add address=2a0e:aa07:ec10::/44 list=CNIP
 add address=2a0e:aa07:f0d2::/48 list=CNIP
+add address=2a0e:aa07:f0d5::/48 list=CNIP
 add address=2a0e:aa07:f0d8::/48 list=CNIP
 add address=2a0e:aa07:f0de::/48 list=CNIP
 add address=2a0e:b107:12b::/48 list=CNIP
