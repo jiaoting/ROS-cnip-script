@@ -1302,6 +1302,7 @@ add address=2404:2280:187::/48 list=CNIP
 add address=2404:2280:18a::/47 list=CNIP
 add address=2404:2280:18e::/47 list=CNIP
 add address=2404:2280:193::/48 list=CNIP
+add address=2404:2280:196::/48 list=CNIP
 add address=2404:2280:198::/45 list=CNIP
 add address=2404:2280:1a4::/46 list=CNIP
 add address=2404:2280:1a8::/47 list=CNIP
