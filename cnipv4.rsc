@@ -890,6 +890,7 @@ add address=45.187.100.0/22 list=CNIP
 add address=45.195.6.0/24 list=CNIP
 add address=45.199.167.0/24 list=CNIP
 add address=45.200.10.0/24 list=CNIP
+add address=45.200.112.0/24 list=CNIP
 add address=45.202.209.0/24 list=CNIP
 add address=45.202.210.0/23 list=CNIP
 add address=45.202.212.0/24 list=CNIP
@@ -4614,6 +4615,7 @@ add address=154.19.100.0/22 list=CNIP
 add address=154.19.112.0/20 list=CNIP
 add address=154.23.188.0/22 list=CNIP
 add address=154.38.104.0/22 list=CNIP
+add address=154.48.227.0/24 list=CNIP
 add address=154.72.42.0/24 list=CNIP
 add address=154.72.44.0/24 list=CNIP
 add address=154.72.47.0/24 list=CNIP
@@ -4624,7 +4626,7 @@ add address=154.197.137.0/24 list=CNIP
 add address=154.197.153.0/24 list=CNIP
 add address=154.197.156.0/24 list=CNIP
 add address=154.197.163.0/24 list=CNIP
-add address=154.197.168.0/24 list=CNIP
+add address=154.197.168.0/23 list=CNIP
 add address=154.197.172.0/24 list=CNIP
 add address=154.197.180.0/24 list=CNIP
 add address=154.197.189.0/24 list=CNIP
@@ -4685,7 +4687,6 @@ add address=156.224.224.0/24 list=CNIP
 add address=156.224.232.0/24 list=CNIP
 add address=156.230.11.0/24 list=CNIP
 add address=156.230.12.0/23 list=CNIP
-add address=156.231.163.0/24 list=CNIP
 add address=156.232.9.0/24 list=CNIP
 add address=156.232.10.0/23 list=CNIP
 add address=156.236.96.0/23 list=CNIP
@@ -4941,7 +4942,6 @@ add address=168.159.152.0/22 list=CNIP
 add address=168.159.156.0/23 list=CNIP
 add address=168.159.158.0/24 list=CNIP
 add address=168.160.0.0/16 list=CNIP
-add address=168.228.136.0/22 list=CNIP
 add address=168.235.241.0/24 list=CNIP
 add address=170.179.0.0/16 list=CNIP
 add address=170.245.251.0/24 list=CNIP
@@ -5000,8 +5000,6 @@ add address=175.184.128.0/18 list=CNIP
 add address=175.185.0.0/16 list=CNIP
 add address=175.186.0.0/15 list=CNIP
 add address=175.188.0.0/14 list=CNIP
-add address=179.42.156.0/23 list=CNIP
-add address=179.42.158.0/24 list=CNIP
 add address=180.76.0.0/14 list=CNIP
 add address=180.84.0.0/15 list=CNIP
 add address=180.86.0.0/16 list=CNIP
