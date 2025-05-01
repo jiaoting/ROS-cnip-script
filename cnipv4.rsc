@@ -4429,6 +4429,7 @@ add address=134.175.0.0/16 list=CNIP
 add address=137.59.59.0/24 list=CNIP
 add address=137.59.88.0/22 list=CNIP
 add address=137.220.128.0/17 list=CNIP
+add address=138.94.43.0/24 list=CNIP
 add address=139.5.56.0/21 list=CNIP
 add address=139.5.80.0/22 list=CNIP
 add address=139.5.92.0/22 list=CNIP
