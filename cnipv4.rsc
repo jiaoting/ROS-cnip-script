@@ -889,8 +889,8 @@ add address=45.153.128.0/22 list=CNIP
 add address=45.157.88.0/24 list=CNIP
 add address=45.166.67.0/24 list=CNIP
 add address=45.195.6.0/24 list=CNIP
+add address=45.197.131.0/24 list=CNIP
 add address=45.199.167.0/24 list=CNIP
-add address=45.200.10.0/24 list=CNIP
 add address=45.202.209.0/24 list=CNIP
 add address=45.202.210.0/23 list=CNIP
 add address=45.202.212.0/24 list=CNIP
