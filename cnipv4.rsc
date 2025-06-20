@@ -524,7 +524,6 @@ add address=43.231.136.0/21 list=CNIP
 add address=43.231.144.0/20 list=CNIP
 add address=43.231.160.0/20 list=CNIP
 add address=43.231.176.0/21 list=CNIP
-add address=43.231.186.0/24 list=CNIP
 add address=43.236.0.0/15 list=CNIP
 add address=43.238.0.0/16 list=CNIP
 add address=43.239.0.0/19 list=CNIP
