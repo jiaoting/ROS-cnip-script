@@ -2349,7 +2349,7 @@ add address=2a14:67c1:a061::/48 list=CNIP
 add address=2a14:67c1:a064::/48 list=CNIP
 add address=2a14:67c1:a090::/46 list=CNIP
 add address=2a14:67c1:a100::/43 list=CNIP
-add address=2a14:67c1:a120::/47 list=CNIP
+add address=2a14:67c1:a121::/48 list=CNIP
 add address=2a14:67c1:a127::/48 list=CNIP
 add address=2a14:67c1:a142::/48 list=CNIP
 add address=2a14:67c1:b000::/48 list=CNIP
