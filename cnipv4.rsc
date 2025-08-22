@@ -1142,7 +1142,6 @@ add address=101.50.56.0/22 list=CNIP
 add address=101.52.0.0/16 list=CNIP
 add address=101.53.100.0/22 list=CNIP
 add address=101.54.0.0/16 list=CNIP
-add address=101.55.20.0/23 list=CNIP
 add address=101.55.224.0/21 list=CNIP
 add address=101.64.0.0/13 list=CNIP
 add address=101.72.0.0/14 list=CNIP
