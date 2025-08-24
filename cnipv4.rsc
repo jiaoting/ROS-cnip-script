@@ -6329,7 +6329,6 @@ add address=211.136.0.0/13 list=CNIP
 add address=211.144.0.0/12 list=CNIP
 add address=211.160.0.0/13 list=CNIP
 add address=212.64.0.0/17 list=CNIP
-add address=212.100.190.0/24 list=CNIP
 add address=212.129.128.0/17 list=CNIP
 add address=213.199.169.0/24 list=CNIP
 add address=218.0.0.0/11 list=CNIP
