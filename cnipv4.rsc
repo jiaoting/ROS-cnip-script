@@ -4812,6 +4812,7 @@ add address=185.75.173.0/24 list=CNIP
 add address=185.75.174.0/24 list=CNIP
 add address=185.109.236.0/24 list=CNIP
 add address=185.234.212.0/24 list=CNIP
+add address=185.243.43.0/24 list=CNIP
 add address=188.131.128.0/17 list=CNIP
 add address=192.11.23.0/24 list=CNIP
 add address=192.11.26.0/24 list=CNIP
