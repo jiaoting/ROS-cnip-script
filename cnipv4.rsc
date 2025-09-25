@@ -4356,7 +4356,6 @@ add address=144.178.0.0/18 list=CNIP
 add address=144.255.0.0/16 list=CNIP
 add address=145.14.71.0/24 list=CNIP
 add address=145.14.72.0/22 list=CNIP
-add address=145.14.79.0/24 list=CNIP
 add address=145.14.81.0/24 list=CNIP
 add address=145.14.82.0/24 list=CNIP
 add address=145.14.84.0/24 list=CNIP
