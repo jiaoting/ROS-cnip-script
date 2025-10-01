@@ -5066,6 +5066,7 @@ add address=202.57.240.0/20 list=CNIP
 add address=202.58.0.0/24 list=CNIP
 add address=202.58.104.0/22 list=CNIP
 add address=202.58.112.0/22 list=CNIP
+add address=202.58.122.0/23 list=CNIP
 add address=202.59.0.0/23 list=CNIP
 add address=202.59.212.0/22 list=CNIP
 add address=202.59.236.0/24 list=CNIP
