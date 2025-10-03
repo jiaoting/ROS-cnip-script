@@ -4445,7 +4445,8 @@ add address=154.72.47.0/24 list=CNIP
 add address=154.89.32.0/20 list=CNIP
 add address=154.89.49.0/24 list=CNIP
 add address=154.89.50.0/23 list=CNIP
-add address=154.89.52.0/22 list=CNIP
+add address=154.89.52.0/23 list=CNIP
+add address=154.89.54.0/24 list=CNIP
 add address=154.89.56.0/21 list=CNIP
 add address=154.91.158.0/23 list=CNIP
 add address=154.208.140.0/22 list=CNIP
