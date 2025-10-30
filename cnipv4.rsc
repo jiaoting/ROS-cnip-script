@@ -5489,7 +5489,6 @@ add address=203.12.70.0/23 list=CNIP
 add address=203.12.87.0/24 list=CNIP
 add address=203.12.91.0/24 list=CNIP
 add address=203.12.93.0/24 list=CNIP
-add address=203.12.95.0/24 list=CNIP
 add address=203.12.100.0/23 list=CNIP
 add address=203.12.103.0/24 list=CNIP
 add address=203.12.114.0/24 list=CNIP
