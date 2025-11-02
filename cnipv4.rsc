@@ -650,6 +650,7 @@ add address=43.255.244.0/22 list=CNIP
 add address=44.30.15.0/24 list=CNIP
 add address=44.30.28.0/24 list=CNIP
 add address=44.31.28.0/24 list=CNIP
+add address=44.31.42.0/24 list=CNIP
 add address=44.31.81.0/24 list=CNIP
 add address=44.31.96.0/24 list=CNIP
 add address=44.31.216.0/24 list=CNIP
