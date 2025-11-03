@@ -4828,7 +4828,6 @@ add address=192.232.97.0/24 list=CNIP
 add address=193.112.0.0/16 list=CNIP
 add address=193.119.0.0/19 list=CNIP
 add address=193.200.222.160/28 list=CNIP
-add address=193.233.49.0/24 list=CNIP
 add address=194.15.39.0/24 list=CNIP
 add address=194.61.237.0/25 list=CNIP
 add address=194.127.229.0/24 list=CNIP
@@ -6229,7 +6228,7 @@ add address=203.161.192.0/19 list=CNIP
 add address=203.166.160.0/19 list=CNIP
 add address=203.167.28.0/22 list=CNIP
 add address=203.168.0.0/19 list=CNIP
-add address=203.168.129.0/24 list=CNIP
+add address=203.168.128.0/23 list=CNIP
 add address=203.170.58.0/23 list=CNIP
 add address=203.171.0.0/22 list=CNIP
 add address=203.171.208.0/24 list=CNIP
