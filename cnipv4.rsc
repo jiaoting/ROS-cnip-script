@@ -813,6 +813,7 @@ add address=45.135.149.0/24 list=CNIP
 add address=45.147.6.0/24 list=CNIP
 add address=45.151.47.0/24 list=CNIP
 add address=45.157.88.0/24 list=CNIP
+add address=45.192.21.0/24 list=CNIP
 add address=45.192.172.0/24 list=CNIP
 add address=45.192.187.0/24 list=CNIP
 add address=45.192.189.0/24 list=CNIP
@@ -4543,6 +4544,7 @@ add address=160.30.230.0/23 list=CNIP
 add address=160.62.10.0/24 list=CNIP
 add address=160.83.109.0/24 list=CNIP
 add address=160.83.110.0/23 list=CNIP
+add address=160.187.128.0/23 list=CNIP
 add address=160.187.223.0/24 list=CNIP
 add address=160.187.252.0/22 list=CNIP
 add address=160.191.0.0/23 list=CNIP
