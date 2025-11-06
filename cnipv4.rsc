@@ -4830,6 +4830,7 @@ add address=192.232.97.0/24 list=CNIP
 add address=193.112.0.0/16 list=CNIP
 add address=193.119.0.0/19 list=CNIP
 add address=193.200.222.160/28 list=CNIP
+add address=193.233.49.0/24 list=CNIP
 add address=194.15.39.0/24 list=CNIP
 add address=194.61.237.0/25 list=CNIP
 add address=194.127.229.0/24 list=CNIP
