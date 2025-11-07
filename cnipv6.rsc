@@ -55,7 +55,6 @@ add address=2001:df3:7440::/48 list=CNIP
 add address=2001:df3:8b80::/48 list=CNIP
 add address=2001:df3:9a40::/48 list=CNIP
 add address=2001:df3:a680::/48 list=CNIP
-add address=2001:df3:c380::/48 list=CNIP
 add address=2001:df3:c680::/48 list=CNIP
 add address=2001:df3:d0c0::/48 list=CNIP
 add address=2001:df3:d880::/48 list=CNIP
@@ -299,7 +298,7 @@ add address=2400:9380:9121::/48 list=CNIP
 add address=2400:9380:9201::/48 list=CNIP
 add address=2400:9380:9202::/48 list=CNIP
 add address=2400:9380:9220::/47 list=CNIP
-add address=2400:9380:9240::/47 list=CNIP
+add address=2400:9380:9240::/48 list=CNIP
 add address=2400:9380:9250::/47 list=CNIP
 add address=2400:9380:9260::/48 list=CNIP
 add address=2400:9380:9271::/48 list=CNIP
