@@ -4668,6 +4668,8 @@ add address=163.227.76.0/22 list=CNIP
 add address=163.227.80.0/23 list=CNIP
 add address=163.228.0.0/16 list=CNIP
 add address=163.244.246.0/24 list=CNIP
+add address=163.253.0.0/24 list=CNIP
+add address=163.253.3.0/24 list=CNIP
 add address=164.52.0.0/17 list=CNIP
 add address=165.99.4.0/24 list=CNIP
 add address=165.99.42.0/23 list=CNIP
