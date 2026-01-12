@@ -4475,6 +4475,10 @@ add address=154.19.43.0/24 list=CNIP
 add address=154.72.42.0/24 list=CNIP
 add address=154.72.44.0/24 list=CNIP
 add address=154.72.47.0/24 list=CNIP
+add address=154.83.158.0/24 list=CNIP
+add address=154.83.187.0/24 list=CNIP
+add address=154.83.211.0/24 list=CNIP
+add address=154.83.247.0/24 list=CNIP
 add address=154.84.180.0/24 list=CNIP
 add address=154.89.32.0/20 list=CNIP
 add address=154.91.158.0/23 list=CNIP
