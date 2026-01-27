@@ -202,7 +202,6 @@ add address=38.111.220.0/23 list=CNIP
 add address=38.134.56.0/22 list=CNIP
 add address=38.247.24.0/22 list=CNIP
 add address=38.247.32.0/23 list=CNIP
-add address=38.247.35.0/24 list=CNIP
 add address=38.247.36.0/22 list=CNIP
 add address=39.0.0.0/24 list=CNIP
 add address=39.0.2.0/23 list=CNIP
