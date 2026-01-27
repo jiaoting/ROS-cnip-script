@@ -83,6 +83,7 @@ add address=2001:df5:5f80::/48 list=CNIP
 add address=2001:df5:7800::/48 list=CNIP
 add address=2001:df6:40::/48 list=CNIP
 add address=2001:df6:100::/48 list=CNIP
+add address=2001:df6:40c0::/48 list=CNIP
 add address=2001:df6:5d00::/48 list=CNIP
 add address=2001:df6:6800::/48 list=CNIP
 add address=2001:df6:f400::/48 list=CNIP
@@ -2251,6 +2252,7 @@ add address=2a0e:b107:da0::/44 list=CNIP
 add address=2a0e:b107:14a0::/44 list=CNIP
 add address=2a0e:b107:178d::/48 list=CNIP
 add address=2a0e:b107:178e::/48 list=CNIP
+add address=2a0f:1cc4::/32 list=CNIP
 add address=2a0f:1cc5:10::/46 list=CNIP
 add address=2a0f:1cc5:20::/44 list=CNIP
 add address=2a0f:1cc5:130::/44 list=CNIP
@@ -2283,6 +2285,7 @@ add address=2a0f:1cc5:ffff::/48 list=CNIP
 add address=2a0f:1cc6:b110::/47 list=CNIP
 add address=2a0f:1cc6:bab4::/48 list=CNIP
 add address=2a0f:1cc6:bab9::/48 list=CNIP
+add address=2a0f:1cc7::/32 list=CNIP
 add address=2a0f:6284:300::/40 list=CNIP
 add address=2a0f:6284:400::/42 list=CNIP
 add address=2a0f:6284:440::/43 list=CNIP
@@ -2349,6 +2352,7 @@ add address=2a14:67c1:800::/48 list=CNIP
 add address=2a14:67c1:802::/47 list=CNIP
 add address=2a14:67c1:804::/48 list=CNIP
 add address=2a14:67c1:806::/47 list=CNIP
+add address=2a14:67c1:900::/44 list=CNIP
 add address=2a14:67c1:8000::/36 list=CNIP
 add address=2a14:67c1:a020::/48 list=CNIP
 add address=2a14:67c1:a023::/48 list=CNIP
@@ -2362,6 +2366,7 @@ add address=2a14:67c1:a123::/48 list=CNIP
 add address=2a14:67c1:a124::/47 list=CNIP
 add address=2a14:67c1:a128::/48 list=CNIP
 add address=2a14:67c1:a144::/48 list=CNIP
+add address=2a14:67c1:a150::/44 list=CNIP
 add address=2a14:67c1:b000::/48 list=CNIP
 add address=2a14:67c1:b065::/48 list=CNIP
 add address=2a14:67c1:b066::/48 list=CNIP
@@ -2441,6 +2446,7 @@ add address=2a14:7583:f4fe::/48 list=CNIP
 add address=2a14:7583:f500::/48 list=CNIP
 add address=2a14:7583:f704::/48 list=CNIP
 add address=2a14:7583:f709::/48 list=CNIP
+add address=2a14:7583:f70b::/48 list=CNIP
 add address=2a14:7583:f743::/48 list=CNIP
 add address=2a14:7583:f744::/48 list=CNIP
 add address=2a14:7583:f764::/48 list=CNIP
