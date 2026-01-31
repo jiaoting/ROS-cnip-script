@@ -6354,8 +6354,6 @@ add address=204.55.160.0/24 list=CNIP
 add address=204.79.135.24/32 list=CNIP
 add address=204.235.241.0/24 list=CNIP
 add address=205.198.19.0/24 list=CNIP
-add address=206.52.0.0/22 list=CNIP
-add address=206.52.4.0/23 list=CNIP
 add address=206.54.1.128/25 list=CNIP
 add address=206.54.9.0/24 list=CNIP
 add address=206.54.10.0/23 list=CNIP
