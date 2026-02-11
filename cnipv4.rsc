@@ -4343,6 +4343,7 @@ add address=140.205.0.0/16 list=CNIP
 add address=140.206.0.0/15 list=CNIP
 add address=140.210.0.0/16 list=CNIP
 add address=140.224.0.0/16 list=CNIP
+add address=140.235.12.0/24 list=CNIP
 add address=140.237.0.0/16 list=CNIP
 add address=140.240.0.0/16 list=CNIP
 add address=140.242.223.0/24 list=CNIP
@@ -5288,6 +5289,11 @@ add address=202.150.16.0/20 list=CNIP
 add address=202.150.32.0/20 list=CNIP
 add address=202.150.56.0/22 list=CNIP
 add address=202.150.192.0/20 list=CNIP
+add address=202.150.208.0/22 list=CNIP
+add address=202.150.213.0/24 list=CNIP
+add address=202.150.214.0/24 list=CNIP
+add address=202.150.217.0/24 list=CNIP
+add address=202.150.218.0/23 list=CNIP
 add address=202.150.224.0/19 list=CNIP
 add address=202.151.0.0/22 list=CNIP
 add address=202.151.33.0/24 list=CNIP
