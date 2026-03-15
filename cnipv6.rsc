@@ -2128,6 +2128,7 @@ add address=2605:9d80:9033::/48 list=CNIP
 add address=2605:9d80:9042::/48 list=CNIP
 add address=2605:9d80:9071::/48 list=CNIP
 add address=2605:9d80:9092::/48 list=CNIP
+add address=2620:57:4004::/48 list=CNIP
 add address=2804:1e48:9001::/48 list=CNIP
 add address=2804:1e48:9002::/48 list=CNIP
 add address=2a00:8a05::/44 list=CNIP
@@ -2301,6 +2302,7 @@ add address=2a0f:6284:4c30::/48 list=CNIP
 add address=2a0f:6284:4c40::/43 list=CNIP
 add address=2a0f:6284:4c60::/44 list=CNIP
 add address=2a0f:6284:4c80::/43 list=CNIP
+add address=2a0f:6284:4ca0::/44 list=CNIP
 add address=2a0f:6284:4cd0::/44 list=CNIP
 add address=2a0f:6284:4f00::/40 list=CNIP
 add address=2a0f:6284:e000::/35 list=CNIP
