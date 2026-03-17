@@ -2272,12 +2272,13 @@ add address=2a0f:1cc5:1310::/44 list=CNIP
 add address=2a0f:1cc5:1400::/48 list=CNIP
 add address=2a0f:1cc5:1c00::/47 list=CNIP
 add address=2a0f:1cc5:1c02::/48 list=CNIP
+add address=2a0f:1cc5:1c30::/48 list=CNIP
 add address=2a0f:1cc5:1cc0::/48 list=CNIP
 add address=2a0f:1cc5:1d10::/47 list=CNIP
 add address=2a0f:1cc5:1d14::/47 list=CNIP
 add address=2a0f:1cc5:2300::/40 list=CNIP
 add address=2a0f:1cc5:2600::/42 list=CNIP
-add address=2a0f:1cc5:2640::/44 list=CNIP
+add address=2a0f:1cc5:2640::/43 list=CNIP
 add address=2a0f:1cc5:2d01::/48 list=CNIP
 add address=2a0f:1cc5:2d02::/47 list=CNIP
 add address=2a0f:1cc5:2e01::/48 list=CNIP
