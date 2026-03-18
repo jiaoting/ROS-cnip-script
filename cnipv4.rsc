@@ -4980,6 +4980,7 @@ add address=202.12.98.0/23 list=CNIP
 add address=202.12.106.0/24 list=CNIP
 add address=202.12.111.0/24 list=CNIP
 add address=202.12.116.0/24 list=CNIP
+add address=202.13.71.0/24 list=CNIP
 add address=202.14.64.0/23 list=CNIP
 add address=202.14.69.0/24 list=CNIP
 add address=202.14.73.0/24 list=CNIP
