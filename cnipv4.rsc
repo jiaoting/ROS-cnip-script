@@ -680,6 +680,7 @@ add address=43.255.208.0/21 list=CNIP
 add address=43.255.224.0/21 list=CNIP
 add address=43.255.232.0/22 list=CNIP
 add address=43.255.244.0/22 list=CNIP
+add address=44.30.15.0/24 list=CNIP
 add address=44.30.28.0/24 list=CNIP
 add address=44.31.28.0/24 list=CNIP
 add address=44.31.42.0/24 list=CNIP
@@ -2527,6 +2528,7 @@ add address=103.149.242.0/23 list=CNIP
 add address=103.149.244.0/22 list=CNIP
 add address=103.150.10.0/23 list=CNIP
 add address=103.150.24.0/23 list=CNIP
+add address=103.150.37.0/24 list=CNIP
 add address=103.150.66.0/23 list=CNIP
 add address=103.150.72.0/23 list=CNIP
 add address=103.150.122.0/23 list=CNIP
@@ -2555,7 +2557,7 @@ add address=103.152.56.0/23 list=CNIP
 add address=103.152.76.0/23 list=CNIP
 add address=103.152.112.0/23 list=CNIP
 add address=103.152.120.0/22 list=CNIP
-add address=103.152.151.0/24 list=CNIP
+add address=103.152.150.0/23 list=CNIP
 add address=103.152.152.0/23 list=CNIP
 add address=103.152.168.0/22 list=CNIP
 add address=103.152.186.0/23 list=CNIP
@@ -3594,7 +3596,6 @@ add address=106.80.0.0/12 list=CNIP
 add address=106.108.0.0/14 list=CNIP
 add address=106.112.0.0/12 list=CNIP
 add address=106.224.0.0/12 list=CNIP
-add address=107.148.240.0/21 list=CNIP
 add address=107.151.212.0/24 list=CNIP
 add address=107.176.0.0/15 list=CNIP
 add address=107.190.229.0/24 list=CNIP
@@ -6508,6 +6509,7 @@ add address=222.126.128.0/17 list=CNIP
 add address=222.128.0.0/12 list=CNIP
 add address=222.160.0.0/14 list=CNIP
 add address=222.166.0.0/20 list=CNIP
+add address=222.166.240.0/20 list=CNIP
 add address=222.168.0.0/13 list=CNIP
 add address=222.176.0.0/12 list=CNIP
 add address=222.192.0.0/11 list=CNIP
@@ -6516,7 +6518,7 @@ add address=222.248.0.0/15 list=CNIP
 add address=222.252.0.0/20 list=CNIP
 add address=223.0.0.0/12 list=CNIP
 add address=223.20.0.0/15 list=CNIP
-add address=223.26.1.0/24 list=CNIP
+add address=223.26.0.0/23 list=CNIP
 add address=223.27.184.0/22 list=CNIP
 add address=223.29.208.0/22 list=CNIP
 add address=223.29.252.0/22 list=CNIP
