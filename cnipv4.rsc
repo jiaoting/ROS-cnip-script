@@ -4843,7 +4843,6 @@ add address=172.226.180.96/27 list=CNIP
 add address=172.226.180.128/27 list=CNIP
 add address=172.226.214.64/27 list=CNIP
 add address=173.39.200.0/23 list=CNIP
-add address=174.136.239.0/24 list=CNIP
 add address=175.0.0.0/12 list=CNIP
 add address=175.16.0.0/13 list=CNIP
 add address=175.24.0.0/14 list=CNIP
