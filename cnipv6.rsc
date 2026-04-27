@@ -2170,6 +2170,7 @@ add address=240e::/18 list=CNIP
 add address=240f:4000::/24 list=CNIP
 add address=240f:8000::/24 list=CNIP
 add address=240f:c000::/24 list=CNIP
+add address=2602:f46d:6::/48 list=CNIP
 add address=2602:f92a:a46d::/48 list=CNIP
 add address=2602:f92a:a46f::/48 list=CNIP
 add address=2602:f92a:a474::/48 list=CNIP
@@ -2178,6 +2179,7 @@ add address=2602:f9ba:10c::/48 list=CNIP
 add address=2602:f9f6::/48 list=CNIP
 add address=2602:f9f6:400::/47 list=CNIP
 add address=2602:f9f6:450::/48 list=CNIP
+add address=2602:fbda:600::/48 list=CNIP
 add address=2602:fbda:610::/48 list=CNIP
 add address=2602:fbda:620::/48 list=CNIP
 add address=2602:fbda:660::/44 list=CNIP
@@ -2309,8 +2311,11 @@ add address=2a13:8c87::/32 list=CNIP
 add address=2a13:a5c3:ff50::/44 list=CNIP
 add address=2a13:a5c5::/48 list=CNIP
 add address=2a13:aac4:f000::/44 list=CNIP
-add address=2a13:b487:1210::/44 list=CNIP
-add address=2a13:b487:1220::/43 list=CNIP
+add address=2a13:b487:1200::/42 list=CNIP
+add address=2a14:67c1:a110::/48 list=CNIP
+add address=2a14:67c1:a112::/47 list=CNIP
+add address=2a14:67c1:a114::/46 list=CNIP
+add address=2a14:67c1:a118::/45 list=CNIP
 add address=2a14:67c1:b500::/47 list=CNIP
 add address=2a14:67c1:b511::/48 list=CNIP
 add address=2a14:67c1:b514::/48 list=CNIP
@@ -2318,7 +2323,7 @@ add address=2a14:67c1:b530::/44 list=CNIP
 add address=2a14:67c1:b561::/48 list=CNIP
 add address=2a14:67c1:b563::/48 list=CNIP
 add address=2a14:67c1:b578::/48 list=CNIP
-add address=2a14:67c1:b586::/47 list=CNIP
+add address=2a14:67c1:b586::/48 list=CNIP
 add address=2a14:67c1:b588::/47 list=CNIP
 add address=2a14:67c1:b590::/48 list=CNIP
 add address=2a14:67c1:b599::/48 list=CNIP
@@ -2333,7 +2338,6 @@ add address=2a14:7580:d41::/48 list=CNIP
 add address=2a14:7580:d42::/47 list=CNIP
 add address=2a14:7580:dff::/48 list=CNIP
 add address=2a14:7580:fffa::/48 list=CNIP
-add address=2a14:7581:3814::/48 list=CNIP
 add address=2a14:7581:3818::/47 list=CNIP
 add address=2a14:7581:381b::/48 list=CNIP
 add address=2a14:7583:f411::/48 list=CNIP
