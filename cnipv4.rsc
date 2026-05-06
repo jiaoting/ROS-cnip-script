@@ -1984,7 +1984,6 @@ add address=103.81.183.0/24 list=CNIP
 add address=103.81.184.0/22 list=CNIP
 add address=103.81.200.0/22 list=CNIP
 add address=103.81.232.0/22 list=CNIP
-add address=103.82.52.0/22 list=CNIP
 add address=103.82.60.0/22 list=CNIP
 add address=103.82.68.0/22 list=CNIP
 add address=103.82.84.0/22 list=CNIP
