@@ -4504,8 +4504,10 @@ add address=155.102.64.0/23 list=CNIP
 add address=155.102.67.0/24 list=CNIP
 add address=155.102.68.0/23 list=CNIP
 add address=155.102.70.0/24 list=CNIP
+add address=155.102.73.0/24 list=CNIP
 add address=155.102.74.0/23 list=CNIP
-add address=155.102.76.0/22 list=CNIP
+add address=155.102.76.0/23 list=CNIP
+add address=155.102.79.0/24 list=CNIP
 add address=155.102.91.0/24 list=CNIP
 add address=155.102.98.0/23 list=CNIP
 add address=155.102.100.0/23 list=CNIP
