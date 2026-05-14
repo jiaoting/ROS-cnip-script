@@ -2271,6 +2271,7 @@ add address=2a0f:1cc5:1f::/48 list=CNIP
 add address=2a0f:1cc5:110::/44 list=CNIP
 add address=2a0f:1cc5:130::/44 list=CNIP
 add address=2a0f:1cc5:140::/43 list=CNIP
+add address=2a0f:1cc5:160::/44 list=CNIP
 add address=2a0f:1cc5:600::/47 list=CNIP
 add address=2a0f:1cc5:603::/48 list=CNIP
 add address=2a0f:1cc5:642::/48 list=CNIP
