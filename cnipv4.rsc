@@ -1125,6 +1125,7 @@ add address=71.137.0.0/18 list=CNIP
 add address=72.163.240.0/23 list=CNIP
 add address=72.163.248.0/22 list=CNIP
 add address=74.114.51.0/24 list=CNIP
+add address=74.122.24.0/24 list=CNIP
 add address=74.214.161.0/24 list=CNIP
 add address=75.75.236.0/29 list=CNIP
 add address=77.73.8.0/24 list=CNIP
