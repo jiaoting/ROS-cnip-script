@@ -1678,7 +1678,6 @@ add address=2405:9b80::/32 list=CNIP
 add address=2405:9bc0::/32 list=CNIP
 add address=2405:9e00::/32 list=CNIP
 add address=2405:a240::/32 list=CNIP
-add address=2405:a3c0::/32 list=CNIP
 add address=2405:a500::/32 list=CNIP
 add address=2405:a680::/32 list=CNIP
 add address=2405:a900::/32 list=CNIP
