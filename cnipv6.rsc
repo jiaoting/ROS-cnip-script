@@ -2392,7 +2392,7 @@ add address=2a14:7581:ffb::/48 list=CNIP
 add address=2a14:7581:30b6::/48 list=CNIP
 add address=2a14:7581:3814::/48 list=CNIP
 add address=2a14:7581:3818::/47 list=CNIP
-add address=2a14:7583:f224::/48 list=CNIP
+add address=2a14:7583:f224::/47 list=CNIP
 add address=2a14:7583:f228::/48 list=CNIP
 add address=2a14:7583:f22c::/48 list=CNIP
 add address=2a14:7583:f244::/48 list=CNIP
