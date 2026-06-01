@@ -677,6 +677,7 @@ add address=43.255.224.0/21 list=CNIP
 add address=43.255.232.0/22 list=CNIP
 add address=43.255.244.0/22 list=CNIP
 add address=44.30.120.0/24 list=CNIP
+add address=44.30.131.0/24 list=CNIP
 add address=44.31.28.0/24 list=CNIP
 add address=44.31.43.0/24 list=CNIP
 add address=44.31.212.0/24 list=CNIP
