@@ -679,6 +679,7 @@ add address=43.255.244.0/22 list=CNIP
 add address=44.30.120.0/24 list=CNIP
 add address=44.30.130.0/23 list=CNIP
 add address=44.30.152.0/24 list=CNIP
+add address=44.31.28.0/24 list=CNIP
 add address=44.31.43.0/24 list=CNIP
 add address=44.31.216.0/24 list=CNIP
 add address=44.32.69.0/24 list=CNIP
@@ -992,6 +993,10 @@ add address=49.239.192.0/18 list=CNIP
 add address=49.246.224.0/19 list=CNIP
 add address=50.114.121.0/24 list=CNIP
 add address=50.114.187.0/24 list=CNIP
+add address=51.146.239.0/24 list=CNIP
+add address=51.194.210.0/24 list=CNIP
+add address=51.241.139.0/24 list=CNIP
+add address=51.241.143.0/24 list=CNIP
 add address=52.80.0.0/14 list=CNIP
 add address=52.93.242.120/29 list=CNIP
 add address=52.93.242.128/25 list=CNIP
@@ -1071,7 +1076,6 @@ add address=61.8.160.0/20 list=CNIP
 add address=61.10.96.0/20 list=CNIP
 add address=61.10.128.0/20 list=CNIP
 add address=61.10.160.0/19 list=CNIP
-add address=61.10.224.0/19 list=CNIP
 add address=61.14.212.0/22 list=CNIP
 add address=61.14.216.0/21 list=CNIP
 add address=61.14.240.0/21 list=CNIP
@@ -1108,6 +1112,7 @@ add address=64.188.40.0/22 list=CNIP
 add address=64.188.44.0/24 list=CNIP
 add address=64.235.230.152/30 list=CNIP
 add address=65.86.192.0/24 list=CNIP
+add address=65.86.204.0/24 list=CNIP
 add address=65.97.55.248/29 list=CNIP
 add address=65.199.22.0/23 list=CNIP
 add address=66.102.240.0/21 list=CNIP
@@ -1117,6 +1122,8 @@ add address=66.102.254.0/23 list=CNIP
 add address=66.119.149.0/24 list=CNIP
 add address=67.220.137.144/28 list=CNIP
 add address=68.79.0.0/18 list=CNIP
+add address=68.166.193.0/24 list=CNIP
+add address=68.166.207.0/24 list=CNIP
 add address=69.163.104.0/24 list=CNIP
 add address=69.163.106.0/24 list=CNIP
 add address=69.163.123.0/24 list=CNIP
@@ -1135,6 +1142,7 @@ add address=74.114.51.0/24 list=CNIP
 add address=74.214.161.0/24 list=CNIP
 add address=75.75.236.0/29 list=CNIP
 add address=77.73.8.0/24 list=CNIP
+add address=78.105.125.0/24 list=CNIP
 add address=78.105.147.0/24 list=CNIP
 add address=78.105.182.0/23 list=CNIP
 add address=78.154.108.0/24 list=CNIP
@@ -2542,7 +2550,7 @@ add address=103.149.242.0/23 list=CNIP
 add address=103.149.244.0/22 list=CNIP
 add address=103.150.10.0/23 list=CNIP
 add address=103.150.24.0/23 list=CNIP
-add address=103.150.37.0/24 list=CNIP
+add address=103.150.36.0/23 list=CNIP
 add address=103.150.66.0/23 list=CNIP
 add address=103.150.72.0/23 list=CNIP
 add address=103.150.122.0/23 list=CNIP
@@ -4529,9 +4537,7 @@ add address=155.102.64.0/23 list=CNIP
 add address=155.102.67.0/24 list=CNIP
 add address=155.102.68.0/23 list=CNIP
 add address=155.102.70.0/24 list=CNIP
-add address=155.102.72.0/23 list=CNIP
-add address=155.102.77.0/24 list=CNIP
-add address=155.102.78.0/23 list=CNIP
+add address=155.102.72.0/21 list=CNIP
 add address=155.102.91.0/24 list=CNIP
 add address=155.102.92.0/24 list=CNIP
 add address=155.102.98.0/23 list=CNIP
@@ -4822,8 +4828,9 @@ add address=163.227.76.0/22 list=CNIP
 add address=163.227.80.0/23 list=CNIP
 add address=163.228.0.0/16 list=CNIP
 add address=163.244.246.0/24 list=CNIP
+add address=164.37.202.0/23 list=CNIP
+add address=164.37.229.0/24 list=CNIP
 add address=164.52.0.0/17 list=CNIP
-add address=164.163.236.0/22 list=CNIP
 add address=165.99.4.0/24 list=CNIP
 add address=165.99.42.0/23 list=CNIP
 add address=165.101.4.0/23 list=CNIP
@@ -4940,6 +4947,7 @@ add address=180.233.64.0/19 list=CNIP
 add address=180.233.144.0/22 list=CNIP
 add address=180.235.64.0/19 list=CNIP
 add address=180.235.112.0/22 list=CNIP
+add address=181.41.212.0/24 list=CNIP
 add address=182.16.144.0/21 list=CNIP
 add address=182.16.192.0/19 list=CNIP
 add address=182.18.0.0/17 list=CNIP
@@ -5007,6 +5015,8 @@ add address=185.194.148.0/24 list=CNIP
 add address=185.201.226.0/23 list=CNIP
 add address=187.54.48.0/23 list=CNIP
 add address=188.131.128.0/17 list=CNIP
+add address=188.220.127.0/24 list=CNIP
+add address=188.221.14.0/24 list=CNIP
 add address=188.221.99.0/24 list=CNIP
 add address=189.12.48.0/24 list=CNIP
 add address=189.73.18.0/24 list=CNIP
