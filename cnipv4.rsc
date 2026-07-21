@@ -4496,6 +4496,7 @@ add address=151.158.78.0/23 list=CNIP
 add address=151.158.80.0/23 list=CNIP
 add address=151.158.122.0/23 list=CNIP
 add address=151.243.189.0/24 list=CNIP
+add address=151.244.135.0/24 list=CNIP
 add address=151.246.165.0/24 list=CNIP
 add address=151.246.184.0/24 list=CNIP
 add address=151.247.148.0/23 list=CNIP
