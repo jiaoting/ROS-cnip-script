@@ -2296,6 +2296,7 @@ add address=2a0a:d680:8100::/47 list=CNIP
 add address=2a0a:d681:e000::/40 list=CNIP
 add address=2a0a:d681:fb00::/40 list=CNIP
 add address=2a0a:d681:fc00::/38 list=CNIP
+add address=2a0a:d685:1fd::/48 list=CNIP
 add address=2a0a:d685:1fe::/47 list=CNIP
 add address=2a0a:d685:200::/47 list=CNIP
 add address=2a0a:d685:300::/40 list=CNIP
