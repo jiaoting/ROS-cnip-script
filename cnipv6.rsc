@@ -2384,6 +2384,7 @@ add address=2a12:3fc6::/47 list=CNIP
 add address=2a12:3fc6:2::/48 list=CNIP
 add address=2a12:cb40:1::/48 list=CNIP
 add address=2a12:cb40:2::/48 list=CNIP
+add address=2a12:cb41:600::/44 list=CNIP
 add address=2a12:cb41:1200::/44 list=CNIP
 add address=2a12:cb41:1300::/44 list=CNIP
 add address=2a12:cb41:13f0::/44 list=CNIP
