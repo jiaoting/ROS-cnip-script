@@ -5040,7 +5040,7 @@ add address=185.192.56.0/22 list=CNIP
 add address=185.194.148.0/24 list=CNIP
 add address=185.201.226.0/23 list=CNIP
 add address=188.131.128.0/17 list=CNIP
-add address=188.220.42.0/24 list=CNIP
+add address=188.220.65.0/24 list=CNIP
 add address=188.220.68.0/24 list=CNIP
 add address=192.6.87.0/24 list=CNIP
 add address=192.11.23.0/24 list=CNIP
