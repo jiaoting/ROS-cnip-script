@@ -229,7 +229,6 @@ add address=39.64.0.0/11 list=CNIP
 add address=39.96.0.0/13 list=CNIP
 add address=39.104.0.0/14 list=CNIP
 add address=39.108.0.0/16 list=CNIP
-add address=39.109.50.0/23 list=CNIP
 add address=39.109.120.0/23 list=CNIP
 add address=39.125.80.0/24 list=CNIP
 add address=39.128.0.0/10 list=CNIP
