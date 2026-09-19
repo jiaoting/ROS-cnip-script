@@ -1282,7 +1282,6 @@ add address=2404:2280:123::/48 list=CNIP
 add address=2404:2280:125::/48 list=CNIP
 add address=2404:2280:126::/47 list=CNIP
 add address=2404:2280:128::/47 list=CNIP
-add address=2404:2280:12b::/48 list=CNIP
 add address=2404:2280:12e::/48 list=CNIP
 add address=2404:2280:130::/48 list=CNIP
 add address=2404:2280:134::/48 list=CNIP
@@ -2197,6 +2196,7 @@ add address=240d:4000::/21 list=CNIP
 add address=240d:8000::/24 list=CNIP
 add address=240d:c000:f1e0::/47 list=CNIP
 add address=240d:c000:f1e3::/48 list=CNIP
+add address=240d:c000:f1e4::/48 list=CNIP
 add address=240d:c000:f1ef::/48 list=CNIP
 add address=240e::/18 list=CNIP
 add address=240f:4000::/24 list=CNIP
