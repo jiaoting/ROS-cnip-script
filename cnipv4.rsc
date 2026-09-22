@@ -1108,6 +1108,7 @@ add address=63.140.0.0/24 list=CNIP
 add address=63.140.3.0/24 list=CNIP
 add address=64.50.181.0/24 list=CNIP
 add address=64.71.138.0/25 list=CNIP
+add address=64.96.5.0/24 list=CNIP
 add address=64.188.38.0/23 list=CNIP
 add address=64.188.40.0/22 list=CNIP
 add address=64.188.44.0/24 list=CNIP
