@@ -2372,11 +2372,11 @@ add address=2a0f:1cc6:b240::/43 list=CNIP
 add address=2a0f:2380::/29 list=CNIP
 add address=2a0f:2706::/32 list=CNIP
 add address=2a0f:4680::/29 list=CNIP
-add address=2a0f:6280:1400::/44 list=CNIP
-add address=2a0f:6280:1440::/43 list=CNIP
-add address=2a0f:6280:1460::/44 list=CNIP
+add address=2a0f:6280:1400::/43 list=CNIP
+add address=2a0f:6280:1440::/42 list=CNIP
 add address=2a0f:6280:1480::/44 list=CNIP
 add address=2a0f:6281::/32 list=CNIP
+add address=2a0f:6284:4c00::/44 list=CNIP
 add address=2a0f:6284:4c20::/44 list=CNIP
 add address=2a0f:6284:4c30::/48 list=CNIP
 add address=2a0f:6284:4c40::/43 list=CNIP
