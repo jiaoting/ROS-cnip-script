@@ -5053,7 +5053,7 @@ add address=163.181.26.0/24 list=CNIP
 add address=163.181.32.0/20 list=CNIP
 add address=163.181.48.0/21 list=CNIP
 add address=163.181.56.0/24 list=CNIP
-add address=163.181.58.0/24 list=CNIP
+add address=163.181.58.0/23 list=CNIP
 add address=163.181.60.0/23 list=CNIP
 add address=163.181.63.0/24 list=CNIP
 add address=163.181.66.0/23 list=CNIP
