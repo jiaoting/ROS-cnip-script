@@ -2434,6 +2434,7 @@ add address=2a0f:1cc6:b110::/48 list=CNIP
 add address=2a0f:1cc6:b210::/47 list=CNIP
 add address=2a0f:1cc6:b212::/48 list=CNIP
 add address=2a0f:1cc6:b240::/43 list=CNIP
+add address=2a0f:1cc6:b271::/48 list=CNIP
 add address=2a0f:2384::/30 list=CNIP
 add address=2a0f:2706::/32 list=CNIP
 add address=2a0f:4684::/30 list=CNIP
