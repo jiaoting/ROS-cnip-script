@@ -2278,7 +2278,6 @@ add address=2605:9d80:9033::/48 list=CNIP
 add address=2605:9d80:9042::/48 list=CNIP
 add address=2605:9d80:9071::/48 list=CNIP
 add address=2605:9d80:9092::/48 list=CNIP
-add address=2620:57:4004::/47 list=CNIP
 add address=2804:1e48:9002::/48 list=CNIP
 add address=2a03:f900::/29 list=CNIP
 add address=2a04:3e00::/29 list=CNIP
