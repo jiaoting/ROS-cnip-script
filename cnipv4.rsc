@@ -5133,7 +5133,6 @@ add address=163.227.80.0/23 list=CNIP
 add address=163.228.0.0/16 list=CNIP
 add address=163.244.246.0/24 list=CNIP
 add address=164.52.0.0/17 list=CNIP
-add address=164.163.236.0/22 list=CNIP
 add address=165.99.4.0/24 list=CNIP
 add address=165.99.42.0/23 list=CNIP
 add address=165.101.4.0/23 list=CNIP
@@ -5154,11 +5153,13 @@ add address=168.159.156.0/23 list=CNIP
 add address=168.159.158.0/24 list=CNIP
 add address=168.160.0.0/16 list=CNIP
 add address=169.40.59.0/24 list=CNIP
+add address=170.33.15.0/24 list=CNIP
 add address=170.33.20.0/22 list=CNIP
 add address=170.33.24.0/24 list=CNIP
 add address=170.33.29.0/24 list=CNIP
 add address=170.33.30.0/23 list=CNIP
 add address=170.33.32.0/22 list=CNIP
+add address=170.33.41.0/24 list=CNIP
 add address=170.33.64.0/23 list=CNIP
 add address=170.33.66.0/24 list=CNIP
 add address=170.33.68.0/23 list=CNIP
@@ -5173,7 +5174,7 @@ add address=170.33.129.0/24 list=CNIP
 add address=170.33.130.0/23 list=CNIP
 add address=170.33.136.0/23 list=CNIP
 add address=170.33.138.0/24 list=CNIP
-add address=170.33.169.0/24 list=CNIP
+add address=170.33.168.0/23 list=CNIP
 add address=170.33.192.0/23 list=CNIP
 add address=170.179.0.0/16 list=CNIP
 add address=171.8.0.0/13 list=CNIP
