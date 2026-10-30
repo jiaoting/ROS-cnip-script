@@ -420,6 +420,7 @@ add address=43.96.2.130/32 list=CNIP
 add address=43.96.3.0/24 list=CNIP
 add address=43.96.4.0/22 list=CNIP
 add address=43.96.8.0/22 list=CNIP
+add address=43.96.12.0/24 list=CNIP
 add address=43.96.16.130/32 list=CNIP
 add address=43.96.18.0/24 list=CNIP
 add address=43.96.20.0/22 list=CNIP
@@ -5111,6 +5112,7 @@ add address=163.181.248.0/21 list=CNIP
 add address=163.204.0.0/16 list=CNIP
 add address=163.223.28.0/23 list=CNIP
 add address=163.223.32.0/23 list=CNIP
+add address=163.223.72.0/23 list=CNIP
 add address=163.223.124.0/23 list=CNIP
 add address=163.223.173.0/24 list=CNIP
 add address=163.223.178.0/23 list=CNIP
