@@ -2403,7 +2403,7 @@ add address=2a0f:1cc5:57fc::/47 list=CNIP
 add address=2a0f:1cc5:57ff::/48 list=CNIP
 add address=2a0f:1cc5:5801::/48 list=CNIP
 add address=2a0f:1cc6:b112::/48 list=CNIP
-add address=2a0f:1cc6:b130::/44 list=CNIP
+add address=2a0f:1cc6:b130::/48 list=CNIP
 add address=2a0f:1cc6:b210::/47 list=CNIP
 add address=2a0f:1cc6:b212::/48 list=CNIP
 add address=2a0f:1cc6:b240::/43 list=CNIP
