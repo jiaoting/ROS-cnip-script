@@ -858,7 +858,6 @@ add address=45.127.144.0/21 list=CNIP
 add address=45.127.156.0/22 list=CNIP
 add address=45.127.216.0/22 list=CNIP
 add address=45.137.97.0/24 list=CNIP
-add address=45.140.144.0/24 list=CNIP
 add address=45.146.82.0/24 list=CNIP
 add address=45.150.236.0/23 list=CNIP
 add address=45.248.8.0/22 list=CNIP
@@ -4353,8 +4352,6 @@ add address=134.49.240.0/22 list=CNIP
 add address=134.75.107.10/31 list=CNIP
 add address=134.75.107.14/31 list=CNIP
 add address=134.175.0.0/16 list=CNIP
-add address=136.143.186.0/23 list=CNIP
-add address=136.143.188.0/22 list=CNIP
 add address=137.59.59.0/24 list=CNIP
 add address=137.59.88.0/22 list=CNIP
 add address=138.252.72.0/23 list=CNIP
@@ -4412,6 +4409,7 @@ add address=140.250.0.0/16 list=CNIP
 add address=140.255.0.0/16 list=CNIP
 add address=141.11.210.0/24 list=CNIP
 add address=141.11.219.0/24 list=CNIP
+add address=141.229.14.0/23 list=CNIP
 add address=142.70.0.0/16 list=CNIP
 add address=142.86.0.0/16 list=CNIP
 add address=143.20.246.0/24 list=CNIP
@@ -4885,7 +4883,7 @@ add address=165.101.144.0/23 list=CNIP
 add address=165.101.170.0/23 list=CNIP
 add address=165.101.208.0/23 list=CNIP
 add address=165.101.244.0/23 list=CNIP
-add address=165.173.179.0/24 list=CNIP
+add address=165.173.176.0/24 list=CNIP
 add address=166.111.0.0/16 list=CNIP
 add address=167.139.0.0/16 list=CNIP
 add address=167.160.27.0/24 list=CNIP
@@ -6575,7 +6573,6 @@ add address=204.52.191.0/24 list=CNIP
 add address=204.55.160.0/24 list=CNIP
 add address=204.77.130.0/24 list=CNIP
 add address=204.79.135.24/32 list=CNIP
-add address=204.141.42.0/23 list=CNIP
 add address=204.235.241.0/24 list=CNIP
 add address=205.198.19.0/24 list=CNIP
 add address=206.109.70.0/23 list=CNIP
@@ -6631,6 +6628,7 @@ add address=212.103.62.0/24 list=CNIP
 add address=212.129.128.0/17 list=CNIP
 add address=213.199.169.0/24 list=CNIP
 add address=216.105.166.0/24 list=CNIP
+add address=217.217.197.0/24 list=CNIP
 add address=217.217.211.0/24 list=CNIP
 add address=218.0.0.0/11 list=CNIP
 add address=218.56.0.0/13 list=CNIP
