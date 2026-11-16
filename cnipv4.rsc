@@ -6582,7 +6582,6 @@ add address=204.79.135.24/32 list=CNIP
 add address=204.235.241.0/24 list=CNIP
 add address=205.198.19.0/24 list=CNIP
 add address=206.109.70.0/23 list=CNIP
-add address=206.109.75.0/24 list=CNIP
 add address=207.57.167.0/24 list=CNIP
 add address=207.57.168.0/24 list=CNIP
 add address=207.57.174.0/24 list=CNIP
